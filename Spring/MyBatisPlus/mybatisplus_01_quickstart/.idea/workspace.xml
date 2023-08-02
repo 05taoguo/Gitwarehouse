@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773b5338-1dea-4fbd-948b-dc145053b419" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/cn/jzyh/dao/UserDap.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/cn/jzyh/dao/UserDap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/cn/jzyh/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/cn/jzyh/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Mybatisplus01QuickstartApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Mybatisplus01QuickstartApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,30 +52,42 @@
         <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="2TPUY7mAaPiLG0ga4oDOYrCWc7u" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/Gitwarehouse/Spring/MyBatisPlus/mybatisplus_01_quickstart",
+    "last_opened_file_path": "E:/Gitwarehouse/Spring/Maven/maven_02_ssm",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.5853018",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "project.kotlinCompiler",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -82,7 +96,23 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Mybatisplus01QuickstartApplication">
+    <configuration name="Mybatisplus01QuickstartApplicationTests.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisplus_01_quickstart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.jzyh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.jzyh" />
+      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Mybatisplus01QuickstartApplicationTests" />
+      <option name="METHOD_NAME" value="testGetAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Mybatisplus01QuickstartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="mybatisplus_01_quickstart" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.jzyh.Mybatisplus01QuickstartApplication" />
@@ -90,6 +120,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Mybatisplus01QuickstartApplicationTests.testGetAll" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690944253306</updated>
-      <workItem from="1690944254499" duration="1657000" />
+      <workItem from="1690944254499" duration="3549000" />
     </task>
     <servers />
   </component>
