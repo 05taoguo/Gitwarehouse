@@ -6,9 +6,44 @@
   <component name="ChangeListManager">
     <list default="true" id="8b88a69e-7ec5-4596-ade0-a8c87eaadb6b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../maven_01_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_01_parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MyBatisPlus/mybatisplus_01_quickstart/mybatisplus_01_quickstart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatisPlus/mybatisplus_01_quickstart/mybatisplus_01_quickstart/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MyBatisPlus/mybatisplus_01_quickstart/mybatisplus_01_quickstart/src/main/java/cn/jzyh/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatisPlus/mybatisplus_01_quickstart/mybatisplus_01_quickstart/src/main/java/cn/jzyh/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MyBatisPlus/mybatisplus_01_quickstart/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Mybatisplus01QuickstartApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatisPlus/mybatisplus_01_quickstart/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Mybatisplus01QuickstartApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/java/cn/jzyh/SpringbootSsmApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/java/cn/jzyh/controller/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/java/cn/jzyh/controller/Code.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/java/cn/jzyh/controller/ProjectExceptionAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/java/cn/jzyh/controller/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/java/cn/jzyh/exception/BusinessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/java/cn/jzyh/exception/SystemException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/java/cn/jzyh/service/BookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/java/cn/jzyh/service/Impl/BookServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/js/axios-0.18.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/js/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/pages/books.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/plugins/elementui/fonts/element-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/plugins/elementui/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/plugins/elementui/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/plugins/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/plugins/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/plugins/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_02_ssm - 副本/src/test/java/cn/jzyh/SpringbootSsmApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_03_pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_03_pojo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_04_dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_04_dao/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +102,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.5853018",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "71333b104e940498204983a7dc594676",
     "vue.rearranger.settings.migration": "true"
   },
@@ -209,7 +244,8 @@
       <workItem from="1690941608556" duration="27000" />
       <workItem from="1690942289989" duration="620000" />
       <workItem from="1690943610076" duration="51000" />
-      <workItem from="1690947869590" duration="389000" />
+      <workItem from="1690947869590" duration="919000" />
+      <workItem from="1690960307389" duration="1477000" />
     </task>
     <servers />
   </component>

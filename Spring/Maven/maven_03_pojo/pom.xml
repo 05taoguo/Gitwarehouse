@@ -14,4 +14,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <!--配置当前工程继承自parent工程-->
+    <parent>
+        <groupId>cn.jzyh</groupId>
+        <artifactId>maven_01_parent</artifactId>
+        <version>1.0-RELEASE</version>
+        <relativePath>../maven_01_parent/pom.xml</relativePath>
+    </parent>
+
 </project>
