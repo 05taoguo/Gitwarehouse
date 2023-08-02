@@ -1,0 +1,110 @@
+配置80的三种方法
+
+方法一（第一加载）：application.properties
+server.port=80
+
+方法二（第二加载）：application.yml
+service:
+  port: 80
+
+方法三（第三加载）：application.yaml
+server:
+  port: 80
+------------------------------------------------------------
+
+数据访问
+enterprise:
+  name: jzyh
+  age: 12
+  tel: 123456789
+  subject:
+    - 大小
+    - 数据
+    - 科技
+    - 魔法
+    - qq
+    - 微信
+
+@Component
+//通过前缀名，读取配置文件中的相应属性信息
+@ConfigurationProperties(prefix = "enterprise")
+
+-------------------------------------------------------------
+
+不使用idea启动
+C M D java -jar 包名.jar
+
+------------------------------------------------------------
+
+日志
+logging:
+  level:
+    root: info
+
+
+        <!--            排除Tomcat起步依赖
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+            </exclusions>-->
+
+        <!--        添加Jetty起步依赖，版本由SpringBoot的starter控制-->
+        <!--        <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-jetty</artifactId>
+                </dependency>-->
+
+----------------------------------------------------------
+#设置启动环境
+spring:
+  profiles:
+    active: test
+
+#---分割实现多个
+---
+#开发
+spring:
+  profiles: dev
+server:
+  port: 82
+
+---
+#生产
+spring:
+  profiles: pro
+server:
+  port: 83
+
+---
+#测试
+spring:
+  profiles: test
+server:
+  port: 84
+
+----------------------------------------------------------
+选择开发环境,主启动配置
+application.properties文件
+    spring.profiles.active=dev
+
+1.application-dev.properties文件
+server.port=80
+
+2.application-pro.properties文件
+server.port=81
+
+带参启动SpringBoot
+java -jar spring01-run-0.0.1-SNAPSHOT.jar --spring.profiles.active=test
+
+后尾添加临时修改启动端口
+--server.port=88
+
+
+---------------------------------------------------------
+application.yml分四级
+一：类
+二：包.类
+三：文件.类
+四：文件.包.类

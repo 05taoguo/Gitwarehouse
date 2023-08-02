@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="add">
+    <h1>你好</h1>
+    <a v-bind:href="url">百度跳转</a>
+</div>
+
+<script src="../js/vue.js"></script>
+
+<script>
+    new Vue({
+        el: "#add",
+        data() {
+            return {
+                url: "https://mail.qq.com"
+            }
+        },
+        //页面加载完成时调用
+        mounted() {
+            alert("弹窗提示")
+        }
+    })
+</script>
+
+</body>
+</html>

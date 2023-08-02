@@ -1,0 +1,47 @@
+#spring:
+#  profiles:
+#    active: ${profile.active}
+
+spring:
+  profiles:
+    active: dev
+---
+#开发
+spring:
+  config:
+    activate:
+      on-profile: dev
+server:
+  port: 8080
+---
+#生产
+spring:
+  config:
+    activate:
+      on-profile: pro
+server:
+  port: 82
+
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+server:
+  port: 83
+
+---
+
+lesson: SpringBoot
+
+enterprise:
+  name: jzyh
+  age: 12
+  tel: 123456789
+  subject:
+    - 大小
+    - 数据
+    - 科技
+    - 魔法
+    - qq
+    - 微信

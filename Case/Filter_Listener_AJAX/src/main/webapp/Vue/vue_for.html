@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <!--  遍历数组-->
+    <div v-for="adds in array">
+        {{adds}}
+    </div>
+
+    <br>
+
+    <!--    索引获取-->
+    <div v-for="(adds,i) in array">
+        <!--        i表示索引，从0开始-->
+        {{i + 1}} : {{adds}}
+    </div>
+
+</div>
+
+<script src="../js/vue.js"></script>
+
+<script>
+    new Vue({
+        el: "#app",
+        data() {
+            return {
+                //声明数组
+                array: ["老大", "老二", "老三"]
+            }
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [21/Jun/2023:14:54:29 +0800] "GET /web HTTP/1.1" 302 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [21/Jun/2023:14:54:29 +0800] "GET /web/ HTTP/1.1" 200 52 http-bio-8080-exec-3 161
+0:0:0:0:0:0:0:1 - - [21/Jun/2023:14:54:29 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [21/Jun/2023:14:54:31 +0800] "GET /web/brand.html HTTP/1.1" 304 - http-bio-8080-exec-6 8
+0:0:0:0:0:0:0:1 - - [21/Jun/2023:14:54:31 +0800] "GET /web/js/axios.js HTTP/1.1" 304 - http-bio-8080-exec-8 3
+0:0:0:0:0:0:0:1 - - [21/Jun/2023:14:54:31 +0800] "GET /web/js/vue.js HTTP/1.1" 304 - http-bio-8080-exec-7 3
+0:0:0:0:0:0:0:1 - - [21/Jun/2023:14:54:32 +0800] "GET /web/selectAllServlet HTTP/1.1" 200 65865 http-bio-8080-exec-10 491

@@ -1,0 +1,7 @@
+cn\jzyh\mapper\UserMapper.class
+cn\jzyh\pojo\Bean.class
+cn\jzyh\utils\FactoryUtils.class
+cn\jzyh\pojo\User.class
+cn\jzyh\web\AddBrandServlet.class
+cn\jzyh\service\BrandService.class
+cn\jzyh\web\SelectAllServlet.class

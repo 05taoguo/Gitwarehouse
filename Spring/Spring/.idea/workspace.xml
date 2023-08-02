@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b637ca3-7742-4915-b371-2d1173672f5d" name="Default Changelist" comment="Java高级框架">
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/cn/jzyh/AppForBeahFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/cn/jzyh/dao/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/main/java/cn/jzyh/dao/impl/UserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/test/java/cn/jzyh/test/DataSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/test/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/test/resources/brand1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/test/resources/brand2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_anno/src/test/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/src/main/java/cn/jzyh/domin/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/src/main/java/cn/jzyh/factory/Factory_Instance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/src/main/java/cn/jzyh/factory/Factory_static.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/src/main/java/cn/jzyh/service/PersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/src/main/java/cn/jzyh/service/PersonDao2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/src/main/java/cn/jzyh/service/Student1Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/src/main/java/cn/jzyh/service/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/src/main/java/cn/jzyh/service/TeacherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/src/main/java/cn/jzyh/service/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/src/main/java/cn/jzyh/service/impl/Student1DaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/src/main/java/cn/jzyh/service/impl/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/src/main/java/cn/jzyh/service/impl/TeacherDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/src/main/java/cn/jzyh/service/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/src/main/java/cn/jzyh/service/impl2/PersonImpl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/src/main/java/cn/jzyh/service/impl2/PersonImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_test/src/test/java/SpringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_mybatis/src/main/java/cn/jzyh/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_mybatis/src/main/java/cn/jzyh/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_mybatis/src/main/java/cn/jzyh/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_mybatis/src/main/java/cn/jzyh/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_mybatis/src/main/java/cn/jzyh/mainText/APP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_mybatis/src/main/java/cn/jzyh/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_mybatis/src/main/java/cn/jzyh/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_mybatis/src/main/resources/jdbc.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="2S6kBIosC3AikAQW0qOuD3xFCdv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_mybatis" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.33900523" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b637ca3-7742-4915-b371-2d1173672f5d" name="Default Changelist" comment="" />
+      <created>1688474283015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688474283015</updated>
+      <workItem from="1688474285301" duration="185000" />
+      <workItem from="1688560202879" duration="162000" />
+      <workItem from="1688560970283" duration="94000" />
+      <workItem from="1689041714442" duration="565000" />
+      <workItem from="1689065385862" duration="575000" />
+      <workItem from="1689067828670" duration="17000" />
+      <workItem from="1689129935560" duration="1830000" />
+      <workItem from="1689133385595" duration="10000" />
+      <workItem from="1689510862046" duration="496000" />
+      <workItem from="1689511554531" duration="11000" />
+    </task>
+    <task id="LOCAL-00001" summary="Java高级框架">
+      <created>1688560306213</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688560306213</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java高级框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java高级框架" />
+  </component>
+</project>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<div class="form-div">
+  <div class="reg-content">
+    <h1>欢迎登录</h1>
+    <span>暂无账号？</span><a href="Register.html">点击注册</a>
+  </div>
+
+  <form action="/web/logon" id="reg-form" method="get">
+
+    <table>
+      <tr>
+        <td>用户名</td>
+        <td class="inputs">
+          <input name="username" type="text" id="username">
+          <br>
+          <span class="err_msg" id="username_err" style="display: none">格式错误</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td>密码</td>
+        <td class="inputs">
+          <input name="password" type="password" id="password">
+          <br>
+          <span class="err-msg" id="password_err" style="display: none">格式错误</span>
+        </td>
+      </tr>
+    </table>
+
+    <div class="button">
+      <input value="登录" type="submit" id="re_btn">
+    </div>
+
+  </form>
+</div>
+
+<script>
+  //用户名
+  var usernameEle = document.getElementById("username");
+
+  usernameEle.onblur = checkUserName;
+
+  function checkUserName() {
+
+    var usernameErrEle = document.getElementById("username_err");
+
+    var username = usernameEle.value.trim();
+
+    var regExp = new RegExp(/^\w{6,12}$/);
+    len = regExp.test(username);
+    if (len) {
+
+      usernameErrEle.style.display = "none";
+    } else {
+      usernameErrEle.style.display = "inline";
+    }
+    return len;
+  }
+
+  //密码
+  var passwordEle = document.getElementById("password");
+
+  passwordEle.onblur = checkPassWord;
+
+  function checkPassWord() {
+    var passwordErrEle = document.getElementById("password_err");
+
+    var password = passwordEle.value.trim();
+
+    var regExp = new RegExp(/^\w{6}$/);
+
+    len = regExp.test(password);
+    if (len) {
+      passwordErrEle.style.display = "none";
+    } else {
+      passwordErrEle.style.display = "inline";
+    }
+    return len;
+  }
+
+  //1:获取注册元素，给注册元素绑定事件
+  var s = document.getElementById("reg-form");
+  s.onsubmit = function () {
+    return checkUserName() && checkPassWord();
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Brand_case:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Brand_case</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Brand_case.war">
+      <element id="artifact" artifact-name="Brand_case:war exploded" />
+    </root>
+  </artifact>
+</component>

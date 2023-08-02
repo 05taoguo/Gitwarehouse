@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.jzyh.mapper.BrandMapper">
+
+
+    <!--    <resultMap id="brandResultMap" type="cn.jzyh.pojo.Brand">
+            <result property="brandName" column="BrandName"/>
+            <result property="companyName" column="companyName"/>
+        </resultMap>-->
+
+    <!--    查询-->
+    <select id="selectAll" resultType="cn.jzyh.pojo.Brand">
+        select id, brandName, companyName, ordered, description, status
+        from tb_brand;
+    </select>
+
+
+    <!--    新增-->
+    <insert id="add">
+        insert into tb_brand
+        values (null, #{brandName}, #{companyName}, #{ordered}, #{description}, #{status});
+    </insert>
+
+    <!--    批量删除-->
+    <delete id="deleteByIds">
+        delete from tb_brand where id in
+        <foreach collection="ids" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <!--    单独删除-->
+    <delete id="deleteBid">
+        delete
+        from tb_brand
+        where id = #{id};
+    </delete>
+
+<!--    修改-->
+    <update id="updateBrandById">
+        update tb_brand
+        <set>
+            <if test="brandName != null and brandName != ''">
+                brandName=#{brandName},
+            </if>
+            <if test="companyName != null and companyName != ''">
+                companyName =#{companyName},
+            </if>
+            <if test="ordered != null">
+                ordered= #{ordered},
+            </if>
+            <if test="description != null and description != ''">
+                description=#{description},
+            </if>
+            <if test="status != null">
+                status=#{status}
+            </if>
+
+        </set>
+        where id = #{id}
+
+    </update>
+
+    <!--    条件查询-->
+    <select id="selectByCondition" resultType="cn.jzyh.pojo.Brand">
+        select *
+        from tb_brand
+        <where>
+            <if test="brand.brandName !=null and brand.brandName !='' ">
+                and brandName like #{brand.brandName}
+            </if>
+            <if test="brand.companyName !=null and brand.companyName !='' ">
+                and companyName like #{brand.companyName}
+            </if>
+            <if test="brand.status !=null">
+                and status= #{brand.status}
+            </if>
+        </where>
+        limit #{begin},#{pageSize};
+    </select>
+
+    <!--    条件查询总记录数-->
+    <select id="selectCountByCondition" resultType="java.lang.Integer">
+        select count(*)
+        from tb_brand
+        <where>
+            <if test="brandName !=null and brandName !=''">
+                and brandName like #{brandName}
+            </if>
+            <if test="companyName !=null and companyName !='' ">
+                and companyName like #{companyName}
+            </if>
+            <if test="status !=null">
+                and status= #{status}
+            </if>
+        </where>
+    </select>
+
+
+
+    <select id="SelectUser" resultType="cn.jzyh.pojo.User">
+        select username,password from tb_user where username= #{username} and password=#{password};
+    </select>
+
+    <insert id="inertUser">
+        insert into tb_user (username,password)
+        values (#{username},#{password});
+    </insert>
+
+
+    <insert id="addUser">
+        insert into tb_user (username, password)
+        values (#{username}, #{password});
+    </insert>
+
+
+    <insert id="addBrand">
+        insert into tb_brand (brandName, companyName, ordered, description, status)
+        values (#{brandName}, #{companyName}, #{ordered}, #{description}, #{status});
+    </insert>
+
+    <update id="updateById">
+        update tb_brand
+        set brandName=#{brandName},
+            companyName=#{companyName},
+            ordered=#{ordered},
+            description=#{description},
+            status=#{status}
+        where id = #{id}
+    </update>
+
+    <delete id="deleteById">
+        delete from tb_brand where id=#{id};
+    </delete>
+
+
+</mapper>

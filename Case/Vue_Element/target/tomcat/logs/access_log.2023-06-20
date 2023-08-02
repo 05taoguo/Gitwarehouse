@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [20/Jun/2023:21:10:37 +0800] "GET /web HTTP/1.1" 302 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [20/Jun/2023:21:10:37 +0800] "GET /web/ HTTP/1.1" 404 959 http-bio-8080-exec-3 17
+0:0:0:0:0:0:0:1 - - [20/Jun/2023:21:10:37 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [20/Jun/2023:21:10:40 +0800] "GET /web/selectAll.html HTTP/1.1" 404 987 http-bio-8080-exec-6 2
+0:0:0:0:0:0:0:1 - - [20/Jun/2023:21:10:45 +0800] "GET /web/selectAll.html HTTP/1.1" 404 987 http-bio-8080-exec-8 1
+0:0:0:0:0:0:0:1 - - [20/Jun/2023:21:10:46 +0800] "GET /web/selectAll.html HTTP/1.1" 404 987 http-bio-8080-exec-9 1
+0:0:0:0:0:0:0:1 - - [20/Jun/2023:21:10:58 +0800] "GET /web/selectAll.html HTTP/1.1" 404 987 http-bio-8080-exec-10 1
+0:0:0:0:0:0:0:1 - - [20/Jun/2023:21:11:12 +0800] "GET /web HTTP/1.1" 302 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [20/Jun/2023:21:11:12 +0800] "GET /web/ HTTP/1.1" 404 959 http-bio-8080-exec-4 3
+0:0:0:0:0:0:0:1 - - [20/Jun/2023:21:11:12 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-5 0
+0:0:0:0:0:0:0:1 - - [20/Jun/2023:21:11:14 +0800] "GET /web/selectAll.html HTTP/1.1" 404 987 http-bio-8080-exec-5 1

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h3>添加品牌</h3>
+<div id="app">
+    <form action="" method="post">
+        品牌名称：<input id="brandName" name="brandName" v-model="brand.brandName"><br>
+        企业名称：<input id="companyName" name="companyName" v-model="brand.companyName"><br>
+        排序：<input id="ordered" name="ordered" v-model="brand.ordered"><br>
+        描述信息：<textarea cols="20" id="description" name="description" rows="5"
+                       v-model="brand.description"></textarea><br>
+        状态：
+        <input name="status" type="radio" v-model="brand.status" value="0">禁用
+        <input name="status" type="radio" v-model="brand.status" value="1">启用<br>
+        <!--  submit同步请求，button异步-->
+        <input id="bet" type="button" v-on:click="submits()" value="提交">
+    </form>
+</div>
+
+<script src="../js/axios.js"></script>
+<script src="../js/vue.js"></script>
+
+<script>
+    new Vue({
+        el: "#app",
+        data() {
+            return {
+                brand: {}
+            }
+        },
+        methods: {
+            submits() {
+                var _this = this;
+                axios({
+                    method: "post",
+                    url: "http://localhost:8080/web/add_servlet",
+                    data: _this.brand,
+                }).then(function (resp) {
+                    var data = resp.data;
+                    if (data === "success") {
+                        location.href = "selectAll.html";
+                    }
+                });
+            }
+        }
+    });
+</script>
+
+
+<!--<script>
+
+    //绑定单击事件
+    document.getElementById("bet").onclick = function () {
+
+        //表单数据转为JSON
+        var formData = {
+            brandName: "",
+            companyName: "",
+            ordered: "",
+            description: "",
+            status: "",
+        }
+
+        // 获取表单数据
+        var brandName = document.getElementById("brandName");
+        // 设置数据
+        formData.brandName = brandName.value;
+
+        var companyName = document.getElementById("companyName");
+        // 设置数据
+        formData.companyName = companyName.value;
+
+        var ordered = document.getElementById("ordered");
+        // 设置数据
+        formData.ordered = ordered.value;
+
+        var description = document.getElementById("description");
+        // 设置数据
+        formData.description = description.value;
+
+        var status = document.getElementsByName("status");
+        // 设置数据
+        for (let i = 0; i < status.length; i++) {
+            var status1 = status[i];
+            if (status1.checked) { // checked属性表示当前单选框是选中状态
+                formData.status = status1.value;
+            }
+        }
+
+        console.log(formData);
+
+        //发送请求
+        axios({
+            method:"post",
+            url:"http://localhost:8080/web/add_servlet",
+            data:formData,
+        }).then(function (resp) {
+            var data = resp.data;
+            if (data === "success") {
+                location.href = "selectAll.html";
+            }
+        })
+    }
+
+</script>-->
+
+</body>
+</html>

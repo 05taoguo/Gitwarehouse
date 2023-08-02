@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!--    构造方法-->
+    <bean id="bookDao1" class="cn.jzyh.service.impl.Student1DaoImpl"/>
+
+    <!--    静态工厂-->
+    <bean id="bookDao2" class="cn.jzyh.factory.Factory_static" factory-method="getStudent1Dao"/>
+
+    <!--    实例工厂-->
+    <bean id="factory_Instance" class="cn.jzyh.factory.Factory_Instance"/>
+    <bean id="bookDao3" factory-bean="factory_Instance" factory-method="getStudent1Dao"/>
+
+    <!--    初始化方法，销毁方法-->
+<!--    <bean id="bookDao4" class="cn.jzyh.service.impl.StudentDaoImpl"
+          init-method="init"
+          destroy-method="destroy"/>-->
+
+
+<!--setter的注入方式，简单注入，和引用注入-->
+
+    <bean id="teacherDao" class="cn.jzyh.service.impl.TeacherDaoImpl"/>
+
+<!--    <bean id="teacherDaoB" class="cn.jzyh.service.impl.UserDaoImpl">
+        <property name="teacherDao" ref="teacherDaoA"/>
+    </bean>-->
+
+<!--    <bean id="teacherDaoB" class="cn.jzyh.service.impl.UserDaoImpl" p:teacherDao-ref="teacherDaoA"/>-->
+
+    <bean id="teacherDaoB" class="cn.jzyh.service.impl.UserDaoImpl">
+        <constructor-arg name="teacherDao" ref="teacherDao"/>
+    </bean>
+
+
+<!--    自动注入-->
+    <bean id="person2" class="cn.jzyh.service.impl2.PersonImpl2"/>
+
+    <bean id="person1" class="cn.jzyh.service.impl2.PersonImpl1" autowire="byType">
+<!--        <constructor-arg name="personDao2" ref="person2"/>-->
+    </bean>
+
+
+    <!--    泛型-->
+    <bean id="userDao11"
+          class="cn.jzyh.service.impl.TeacherDaoImpl">
+        <!--数组-->
+        <property name="array">
+            <array>
+                <value>"数组1"</value>
+                <value>"数组2"</value>
+            </array>
+        </property>
+
+        <!--List-->
+        <property name="stringList">
+            <list>
+                <value>"List据类型"</value>
+                <!--<ref></ref>-->
+            </list>
+        </property>
+
+        <!--Map-->
+        <property name="userMap">
+            <map>
+                <entry key="u1" value-ref="userDao1_map"/>
+                <entry key="u2" value-ref="userDao2_map"/>
+            </map>
+        </property>
+
+        <!--set-->
+        <property name="set">
+            <set>
+                <value>"set1"</value>
+                <value>"set2"</value>
+            </set>
+        </property>
+
+        <!--properties-->
+        <property name="properties">
+            <props>
+                <prop key="Properties1">Properties类型1</prop>
+                <prop key="Properties2">Properties类型2</prop>
+                <prop key="Properties3">Properties类型3</prop>
+            </props>
+        </property>
+
+    </bean>
+
+    <bean id="userDao1_map" class="cn.jzyh.domin.User">
+        <property name="name" value="tom1"/>
+        <property name="age" value="18"/>
+    </bean>
+    <bean id="userDao2_map" class="cn.jzyh.domin.User">
+        <property name="name" value="tom2"/>
+        <property name="age" value="18"/>
+    </bean>
+
+
+</beans>

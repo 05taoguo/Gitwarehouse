@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84ad7b15-34e6-4671-b1e4-ac48ca4a050a" name="Default Changelist" comment="Merge remote-tracking branch 'origin/main'">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/pojo/Bean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/RegisterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/utils/CheckCodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/utils/FactoryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/web/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imgs/Desert1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imgs/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imgs/reg_bg_min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itheima/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/mapper/BrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itheima/pojo/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/pojo/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itheima/pojo/PageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/pojo/PageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itheima/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itheima/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itheima/utils/SqlSessionFactoryUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/utils/SqlSessionFactoryUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itheima/web/servlet/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/web/servlet/BaseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itheima/web/servlet/BrandServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/web/servlet/BrandServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itheima/web/servlet/old/AddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/web/servlet/old/AddServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itheima/web/servlet/old/SelectAllServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/web/servlet/old/SelectAllServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itheima/web/servlet/old/deleteByIdsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/web/servlet/old/deleteByIdsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cn/itheima/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cn/jzyh/mapper/BrandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itheima/service/impl/BrandServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itheima/utils/SqlSessionFactoryUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itheima/web/servlet/BrandServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-06-28" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-06-28" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conversation/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../conversation/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conversation/target/classes/cn/jzyh/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../conversation/target/classes/cn/jzyh/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conversation/target/classes/cn/jzyh/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../conversation/target/classes/cn/jzyh/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conversation/target/classes/cn/jzyh/web/SelectPasswordServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../conversation/target/classes/cn/jzyh/web/SelectPasswordServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conversation/target/tomcat/work/Tomcat/localhost/web/org/apache/jsp/login_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../conversation/target/tomcat/work/Tomcat/localhost/web/org/apache/jsp/login_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conversation/target/tomcat/work/Tomcat/localhost/web/org/apache/jsp/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../conversation/target/tomcat/work/Tomcat/localhost/web/org/apache/jsp/login_jsp.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.1\repo" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="2RTGY4PxDTBvEbt82WPitNfyBVm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.33900523" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Case\Brand_case\src\main\webapp" />
+      <recent name="E:\Case\Brand_case\src\main\java\cn\itheima\utils" />
+      <recent name="E:\Case\Brand_case\src\main\java\cn\itheima\service" />
+      <recent name="E:\Case\Brand_case\src\main\java\cn\itheima\pojo" />
+      <recent name="E:\Case\Brand_case\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Case\Brand_case\src\main\webapp" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="cn.itheima.service.impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.jzyh.web" />
+      <recent name="cn.itheima.mapper" />
+      <recent name="cn.itheima.web.servlet" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.89">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A" />
+      <module name="Brand_case" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.89" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.89" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Brand_case:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Brand_case_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="3c54dac2-0f4e-4710-aca5-eaa700b0ad7c" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52094" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Brand_case:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.A" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.89" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.A" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84ad7b15-34e6-4671-b1e4-ac48ca4a050a" name="Default Changelist" comment="" />
+      <created>1687266702482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687266702482</updated>
+      <workItem from="1687266704174" duration="43000" />
+      <workItem from="1687266755397" duration="76000" />
+      <workItem from="1687311632979" duration="3491000" />
+      <workItem from="1687327157874" duration="1768000" />
+      <workItem from="1687328956613" duration="703000" />
+      <workItem from="1687329673831" duration="4740000" />
+      <workItem from="1687606103935" duration="3888000" />
+      <workItem from="1687654511044" duration="6044000" />
+      <workItem from="1687672951640" duration="8475000" />
+      <workItem from="1687682122037" duration="5174000" />
+      <workItem from="1687688613825" duration="9358000" />
+      <workItem from="1687739231426" duration="11103000" />
+      <workItem from="1687751018033" duration="442000" />
+      <workItem from="1687760792026" duration="1518000" />
+      <workItem from="1687762954321" duration="7298000" />
+      <workItem from="1687770817930" duration="11391000" />
+      <workItem from="1687785129226" duration="253000" />
+      <workItem from="1687825794556" duration="33069000" />
+      <workItem from="1687866837782" duration="2344000" />
+      <workItem from="1687869290291" duration="3175000" />
+      <workItem from="1687912081813" duration="1912000" />
+      <workItem from="1687915156329" duration="39000" />
+      <workItem from="1687915670038" duration="8879000" />
+      <workItem from="1687932128528" duration="2275000" />
+      <workItem from="1687934663440" duration="1886000" />
+      <workItem from="1687937869956" duration="7522000" />
+      <workItem from="1687952161466" duration="3560000" />
+      <workItem from="1687956146758" duration="48000" />
+      <workItem from="1687957437412" duration="554000" />
+      <workItem from="1687998714754" duration="1455000" />
+      <workItem from="1688005111077" duration="325000" />
+      <workItem from="1688010484193" duration="2845000" />
+      <workItem from="1688015580595" duration="396000" />
+      <workItem from="1688018351877" duration="633000" />
+      <workItem from="1688019324061" duration="2129000" />
+      <workItem from="1688022358435" duration="17589000" />
+      <workItem from="1688087970340" duration="23000" />
+      <workItem from="1688475737796" duration="826000" />
+    </task>
+    <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1687691812080</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687691812080</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1687912124095</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687912124095</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1687912934732</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687912934732</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1687912960239</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687912960239</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1687923367071</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687923367071</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1687923409528</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687923409528</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1687923719928</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687923719928</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1687923763686</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687923763686</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1687939577274</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687939577274</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1687939782876</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687939782876</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1687939805562</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687939805562</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1687939834528</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687939834528</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1687941357959</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687941357959</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1687942509398</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1687942509398</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+  </component>
+</project>

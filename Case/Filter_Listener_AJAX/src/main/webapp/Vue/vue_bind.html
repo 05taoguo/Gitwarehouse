@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <!--    超链接-指定v-bind-->
+    <a v-bind:href="url">点我</a><br>
+    <!--    简化版-->
+    <a :href="url">不点我</a>
+</div>
+
+<script src="../js/vue.js"></script>
+
+<script>
+    //创建一个Vue的对象.
+    new Vue({
+        //绑定元素的Id
+        el: "#app",
+        data() {
+            return {
+                username: "",
+                url: "https://www.baidu.com"
+            }
+        }
+    });
+
+</script>
+</body>
+</html>

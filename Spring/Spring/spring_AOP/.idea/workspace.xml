@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5488b324-ac57-43de-a26f-66b13fb323d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jzyh/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jzyh/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jzyh/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jzyh/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jzyh/dao/LogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jzyh/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jzyh/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jzyh/service/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jzyh/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jzyh/service/impl/LogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jzyh/service/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc/src/main/java/com/jzyh/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc/src/main/java/com/jzyh/service/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc/src/main/java/com/jzyh/service/SetStringDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc/src/main/java/com/jzyh/service/TestA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc/src/main/java/com/jzyh/service/impl/SetClassImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc/src/main/java/com/jzyh/service/impl/SetStringImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc/src/main/java/com/jzyh/service/impl/TestAImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc/src/main/resources/applicationContext.xml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc/src/test/java/com/jzyh/test/AppForAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_anno/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_anno/src/main/java/cn/jzyh/AppForBeahFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_anno/src/main/java/cn/jzyh/dao/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_anno/src/main/java/cn/jzyh/dao/impl/UserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_anno/src/test/java/cn/jzyh/test/DataSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_anno/src/test/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/src/main/java/cn/jzyh/domin/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/src/main/java/cn/jzyh/factory/Factory_Instance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/src/main/java/cn/jzyh/factory/Factory_static.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/src/main/java/cn/jzyh/service/PersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/src/main/java/cn/jzyh/service/PersonDao2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/src/main/java/cn/jzyh/service/Student1Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/src/main/java/cn/jzyh/service/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/src/main/java/cn/jzyh/service/TeacherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/src/main/java/cn/jzyh/service/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/src/main/java/cn/jzyh/service/impl/Student1DaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/src/main/java/cn/jzyh/service/impl/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/src/main/java/cn/jzyh/service/impl/TeacherDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/src/main/java/cn/jzyh/service/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/src/main/java/cn/jzyh/service/impl2/PersonImpl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/src/main/java/cn/jzyh/service/impl2/PersonImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_ioc_test/src/test/java/SpringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_mybatis/src/main/java/cn/jzyh/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_mybatis/src/main/java/cn/jzyh/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_mybatis/src/main/java/cn/jzyh/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_mybatis/src/main/java/cn/jzyh/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_mybatis/src/main/java/cn/jzyh/mainText/APP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_mybatis/src/main/java/cn/jzyh/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_mybatis/src/main/java/cn/jzyh/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_mybatis/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ioc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/src/main/java/com/jzyh/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/src/main/java/com/jzyh/dao/impl/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/src/main/java/com/jzyh/domin/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/src/main/java/com/jzyh/factory/UserFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/src/main/java/com/jzyh/factory/UserFactory_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/src/main/java/com/jzyh/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ioc/src/main/java/com/jzyh/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/src/main/java/com/jzyh/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ioc/src/main/java/com/jzyh/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/src/main/java/com/jzyh/service/impl/UserServiceImpl2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/src/main/resources/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ioc_anno/src/test/resources/brand2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/src/main/resources/applicationContext_product.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ioc_anno/src/test/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/src/main/resources/applicationContext_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ioc_anno/src/test/resources/brand1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/src/test/java/com/jzyh/test/GetBeanTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/src/test/java/com/jzyh/test/PathTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/src/test/java/com/jzyh/test/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ioc/src/test/java/com/jzyh/test/SpringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/target/classes/Book.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/target/classes/com/jzyh/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/target/classes/com/jzyh/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/target/classes/com/jzyh/domin/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/target/classes/com/jzyh/factory/UserFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/target/classes/com/jzyh/factory/UserFactory_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/target/classes/com/jzyh/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/target/classes/com/jzyh/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/target/classes/com/jzyh/service/impl/UserServiceImpl2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/target/surefire/surefirebooter2719014664939025177.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc/target/test-classes/com/jzyh/test/SpringTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.1\repo" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+  </component>
+  <component name="ProjectId" id="2SVNrhRiPCOXRsn8uQjLs9HNs55" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Git备用仓库/SpringBoot/spring01-run&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git备用仓库\Spring\spring_AOP\src\main\java" />
+      <recent name="E:\Git备用仓库\Spring\spring_AOP\src\main" />
+      <recent name="E:\Git备用仓库\Spring\spring_AOP\src\main\java\com" />
+      <recent name="E:\Git备用仓库\Spring\spring_AOP\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AccountServiceTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_AOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jzyh.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jzyh.service" />
+      <option name="MAIN_CLASS_NAME" value="com.jzyh.service.AccountServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTestCase (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_AOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jzyh.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jzyh.service" />
+      <option name="MAIN_CLASS_NAME" value="com.jzyh.service.AccountServiceTestCase" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTestCase.testFindAll (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_AOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jzyh.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jzyh.service" />
+      <option name="MAIN_CLASS_NAME" value="com.jzyh.service.AccountServiceTestCase" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTestCase.testFindById (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_AOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jzyh.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jzyh.service" />
+      <option name="MAIN_CLASS_NAME" value="com.jzyh.service.AccountServiceTestCase" />
+      <option name="METHOD_NAME" value="testFindById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest.testTransfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_AOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jzyh.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jzyh.service" />
+      <option name="MAIN_CLASS_NAME" value="com.jzyh.service.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testTransfer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountServiceTest" />
+        <item itemvalue="JUnit.AccountServiceTest.testTransfer" />
+        <item itemvalue="JUnit.AccountServiceTestCase.testFindById (1)" />
+        <item itemvalue="JUnit.AccountServiceTestCase (1)" />
+        <item itemvalue="JUnit.AccountServiceTestCase.testFindAll (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5488b324-ac57-43de-a26f-66b13fb323d9" name="Default Changelist" comment="" />
+      <created>1689227990173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689227990173</updated>
+      <workItem from="1689227992216" duration="1166000" />
+      <workItem from="1689236052776" duration="1680000" />
+      <workItem from="1689239729671" duration="1920000" />
+      <workItem from="1689250663814" duration="1317000" />
+      <workItem from="1689301906303" duration="82000" />
+      <workItem from="1689305816408" duration="15000" />
+      <workItem from="1689508135428" duration="539000" />
+      <workItem from="1689508769228" duration="15000" />
+      <workItem from="1689512362000" duration="125000" />
+      <workItem from="1689576681770" duration="428000" />
+      <workItem from="1689593392680" duration="555000" />
+      <workItem from="1689672454695" duration="19000" />
+      <workItem from="1689672642865" duration="1743000" />
+      <workItem from="1690191931543" duration="12000" />
+      <workItem from="1690339522165" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

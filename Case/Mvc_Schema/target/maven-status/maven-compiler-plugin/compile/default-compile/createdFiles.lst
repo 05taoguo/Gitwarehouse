@@ -1,0 +1,6 @@
+cn\jzyh\web\SelectAllBrandServlet.class
+cn\jzyh\web\DeleteBrandServlet.class
+cn\jzyh\utils\FactoryUtils.class
+cn\jzyh\web\UpdateShowServlet.class
+cn\jzyh\web\AddBrandServlet.class
+cn\jzyh\web\UpdateBrandServlet.class

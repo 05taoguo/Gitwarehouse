@@ -1,0 +1,8 @@
+cn\jzyh\pojo\Brand.class
+cn\jzyh\utils\SqlSessionFactoryUtils.class
+cn\jzyh\mapper\BrandMapper.class
+cn\jzyh\web\servlet\BaseServlet.class
+cn\jzyh\web\servlet\BrandServlet.class
+cn\jzyh\service\impl\BrandServiceImpl.class
+cn\jzyh\pojo\Page.class
+cn\jzyh\service\BrandService.class

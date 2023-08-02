@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7bc38099-5f22-4dcc-97a8-0f0b284c4c90" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SpringMvc_SSM_Conformity/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMvc_SSM_Conformity/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMvc_SSM_Conformity/src/main/java/cn/jzyh/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMvc_SSM_Conformity/src/main/java/cn/jzyh/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMvc_SSM_Conformity/src/main/java/cn/jzyh/config/ServletConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMvc_SSM_Conformity/src/main/java/cn/jzyh/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMvc_SSM_Conformity/src/main/java/cn/jzyh/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMvc_SSM_Conformity/src/main/java/cn/jzyh/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMvc_SSM_Conformity/src/main/java/cn/jzyh/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMvc_SSM_Conformity/src/main/java/cn/jzyh/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMvc_SSM_Conformity/src/main/java/cn/jzyh/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMvc_SSM_Conformity/src/main/java/cn/jzyh/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMvc_SSM_Conformity/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMvc_SSM_Conformity/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMvc_SSM_Conformity/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMvc_SSM_Conformity/src/test/java/cn/jzyh/BookServiceText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/java/com/itheima/config/SpringMvcSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/java/com/itheima/controller/ProjectExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/java/com/itheima/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/java/com/itheima/exception/SystemException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/webapp/js/axios-0.18.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/webapp/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/webapp/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/webapp/pages/books.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/webapp/plugins/elementui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/webapp/plugins/elementui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/webapp/plugins/elementui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/webapp/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/webapp/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/webapp/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_09_result/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_01_quickstart/pom.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="2SyN4NtPyhRirn7MzHxTdEDZk6q" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/Git备用仓库/SpringMvc/SpringMvc_SSM_Conformity",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "2f40d0999d0d6997b90e97c7ee414a07",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bc38099-5f22-4dcc-97a8-0f0b284c4c90" name="Changes" comment="" />
+      <created>1690114669234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690114669234</updated>
+      <workItem from="1690114670224" duration="475000" />
+      <workItem from="1690115157132" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

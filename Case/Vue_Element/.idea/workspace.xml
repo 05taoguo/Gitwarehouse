@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c5a8ecf1-d215-4487-98f2-61820d0916dd" name="默认变更列表" comment="默认变更列表">
+      <change afterPath="$PROJECT_DIR$/../Brand_case/src/main/webapp/dwqa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Brand_case/src/main/java/cn/itheima/pojo/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Brand_case/src/main/java/cn/itheima/pojo/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Brand_case/src/main/java/cn/itheima/web/servlet/BrandServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Brand_case/src/main/java/cn/itheima/web/servlet/BrandServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Brand_case/src/main/webapp/brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Brand_case/src/main/webapp/brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Brand_case/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Brand_case/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Brand_case/target/tomcat/logs/access_log.2023-06-28" beforeDir="false" afterPath="$PROJECT_DIR$/../Brand_case/target/tomcat/logs/access_log.2023-06-28" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.1\repo" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="2RT7uDWxAbNmgf0MjVtYMfd0sHA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Brand_case" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.33900523" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c5a8ecf1-d215-4487-98f2-61820d0916dd" name="默认变更列表" comment="" />
+      <created>1687262439004</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687262439004</updated>
+      <workItem from="1687262440372" duration="1245000" />
+      <workItem from="1687265140764" duration="229000" />
+      <workItem from="1687265414996" duration="905000" />
+      <workItem from="1687663909903" duration="168000" />
+      <workItem from="1687934276043" duration="327000" />
+      <workItem from="1687934632334" duration="24000" />
+    </task>
+    <task id="LOCAL-00001" summary="默认变更列表">
+      <created>1687664058176</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687664058177</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="默认变更列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="默认变更列表" />
+  </component>
+</project>

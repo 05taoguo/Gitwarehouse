@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Filter_Listener_AJAX:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="491aa835-eeda-4bce-a904-6f00f509099a" name="默认变更列表" comment="默认变更列表">
+      <change beforePath="$PROJECT_DIR$/../Brand_case/src/main/java/cn/itheima/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Brand_case/src/main/java/cn/itheima/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Brand_case/src/main/java/cn/itheima/utils/SqlSessionFactoryUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Brand_case/src/main/java/cn/itheima/utils/SqlSessionFactoryUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Brand_case/src/main/java/cn/itheima/web/servlet/BrandServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Brand_case/src/main/java/cn/itheima/web/servlet/BrandServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Brand_case/src/main/webapp/brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Brand_case/src/main/webapp/brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Brand_case/target/classes/cn/itheima/service/impl/BrandServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Brand_case/target/classes/cn/itheima/service/impl/BrandServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Brand_case/target/classes/cn/itheima/utils/SqlSessionFactoryUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Brand_case/target/classes/cn/itheima/utils/SqlSessionFactoryUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Brand_case/target/classes/cn/itheima/web/servlet/BrandServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Brand_case/target/classes/cn/itheima/web/servlet/BrandServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Brand_case/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Brand_case/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Brand_case/target/tomcat/logs/access_log.2023-06-28" beforeDir="false" afterPath="$PROJECT_DIR$/../Brand_case/target/tomcat/logs/access_log.2023-06-28" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.1\repo" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="2RBtZ1QpIa7HjTjwc20ccYsg5k4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.33900523" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gant" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Case\Filter_Listener_AJAX\src\main\resources\cn\jzyh\mapper" />
+      <recent name="E:\Case\Filter_Listener_AJAX\src\main\webapp" />
+      <recent name="E:\Case\Filter_Listener_AJAX\src\main\resources" />
+      <recent name="E:\Case\Filter_Listener_AJAX\src\main\java\cn\jzyh\pojo" />
+      <recent name="E:\Case\Filter_Listener_AJAX\src\main\webapp\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Case\Filter_Listener_AJAX\src\main\webapp\js" />
+      <recent name="E:\Case\Filter_Listener_AJAX\src\main\resources\cn\jzyh\mapper" />
+      <recent name="E:\Case\Filter_Listener_AJAX\src\main\resources" />
+      <recent name="E:\Case\Filter_Listener_AJAX\src\main\java\cn\jzyh\web" />
+      <recent name="E:\Case\Filter_Listener_AJAX\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.jzyh.web" />
+      <recent name="cn.jzyh.mapper" />
+      <recent name="cn.jzyh.service" />
+      <recent name="cn.jzyh.utils" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.89" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.89" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Filter_Listener_AJAX_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Filter_Listener_AJAX:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Filter_Listener_AJAX_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="c8b6abd7-9bf5-4218-9b3d-9c71f805477b" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52217" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Filter_Listener_AJAX:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="491aa835-eeda-4bce-a904-6f00f509099a" name="默认变更列表" comment="" />
+      <created>1686735357776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686735357776</updated>
+      <workItem from="1686735358994" duration="414000" />
+      <workItem from="1686735795241" duration="4737000" />
+      <workItem from="1686823005538" duration="236000" />
+      <workItem from="1686828554552" duration="268000" />
+      <workItem from="1686835501272" duration="340000" />
+      <workItem from="1686906448075" duration="1973000" />
+      <workItem from="1686926547267" duration="12024000" />
+      <workItem from="1686939054161" duration="137000" />
+      <workItem from="1686976393845" duration="187000" />
+      <workItem from="1686978705083" duration="1079000" />
+      <workItem from="1686983116527" duration="91000" />
+      <workItem from="1687011679907" duration="6458000" />
+      <workItem from="1687018565035" duration="3062000" />
+      <workItem from="1687023199847" duration="1268000" />
+      <workItem from="1687026590955" duration="452000" />
+      <workItem from="1687061045271" duration="1434000" />
+      <workItem from="1688475354780" duration="11000" />
+    </task>
+    <task id="LOCAL-00001" summary="默认变更列表">
+      <created>1686938705788</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686938705788</updated>
+    </task>
+    <task id="LOCAL-00002" summary="默认变更列表">
+      <created>1686983166187</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686983166187</updated>
+    </task>
+    <task id="LOCAL-00003" summary="默认变更列表">
+      <created>1687011710509</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687011710509</updated>
+    </task>
+    <task id="LOCAL-00004" summary="默认变更列表">
+      <created>1687021532860</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687021532860</updated>
+    </task>
+    <task id="LOCAL-00005" summary="默认变更列表">
+      <created>1687023211130</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687023211130</updated>
+    </task>
+    <task id="LOCAL-00006" summary="默认变更列表">
+      <created>1687023331785</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687023331785</updated>
+    </task>
+    <task id="LOCAL-00007" summary="默认变更列表">
+      <created>1687023488864</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687023488864</updated>
+    </task>
+    <task id="LOCAL-00008" summary="默认变更列表">
+      <created>1687026016057</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687026016057</updated>
+    </task>
+    <task id="LOCAL-00009" summary="默认变更列表">
+      <created>1687026062111</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687026062111</updated>
+    </task>
+    <task id="LOCAL-00010" summary="默认变更列表">
+      <created>1687026644896</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687026644896</updated>
+    </task>
+    <task id="LOCAL-00011" summary="默认变更列表">
+      <created>1687026654312</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687026654312</updated>
+    </task>
+    <task id="LOCAL-00012" summary="默认变更列表">
+      <created>1687061323101</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687061323101</updated>
+    </task>
+    <task id="LOCAL-00013" summary="默认变更列表">
+      <created>1687061433109</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687061433109</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="默认变更列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="默认变更列表" />
+  </component>
+</project>

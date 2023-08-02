@@ -1,0 +1,83 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.jzyh.mapper.BrandMapper">
+    <!--    添加-->
+    <insert id="add">
+        insert into tb_brand
+        values (null, #{brandName}, #{companyName}, #{ordered}, #{description}, #{status});
+    </insert>
+
+    <!--    修改-->
+    <update id="updateAll">
+
+        update tb_brand
+        <set>
+            <if test="brandName !=null and brandName !='' ">
+              brandName = #{brandName},
+            </if>
+            <if test="companyName !=null and companyName !='' ">
+              companyName = #{companyName},
+            </if>
+
+            <if test="ordered !=null">
+              ordered = #{ordered},
+            </if>
+
+            <if test="description !=null and description !='' ">
+              description = #{description},
+            </if>
+
+            <if test="status !=null">
+              status= #{status}
+            </if>
+
+        </set>
+        where id=#{id}
+
+    </update>
+
+    <!--    删除-->
+    <delete id="deleteAll">
+        delete
+        from tb_brand
+        where id = #{id};
+    </delete>
+
+    <!--    条件查询-->
+    <select id="selectByCondition" resultType="cn.jzyh.pojo.Brand">
+        select *
+        from tb_brand
+        <where>
+            <if test="brand.brandName !=null and brand.brandName !='' ">
+                and brandName like #{brand.brandName}
+            </if>
+            <if test="brand.companyName !=null and brand.companyName !='' ">
+                and companyName like #{brand.companyName}
+            </if>
+            <if test="brand.status !=null">
+                and status= #{brand.status}
+            </if>
+        </where>
+        limit #{begin},#{pageSize};
+    </select>
+
+    <!--    总页数-->
+    <select id="selectCountByCondition" resultType="java.lang.Integer">
+        select count(*)
+        from tb_brand
+        <where>
+            <if test="brandName !=null and brandName !=''">
+                and brandName like #{brandName}
+            </if>
+            <if test="companyName !=null and companyName !='' ">
+                and companyName like #{companyName}
+            </if>
+            <if test="status !=null">
+                and status= #{status}
+            </if>
+        </where>
+    </select>
+
+</mapper>

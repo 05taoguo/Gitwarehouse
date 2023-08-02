@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [04/Jul/2023:20:57:17 +0800] "GET /web HTTP/1.1" 302 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [04/Jul/2023:20:57:17 +0800] "GET /web/ HTTP/1.1" 404 959 http-bio-8080-exec-3 25
+0:0:0:0:0:0:0:1 - - [04/Jul/2023:20:57:17 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [04/Jul/2023:20:57:23 +0800] "GET /web/login.jsp HTTP/1.1" 200 869 http-bio-8080-exec-6 713
+0:0:0:0:0:0:0:1 - - [04/Jul/2023:20:57:23 +0800] "GET /web/css/login.css HTTP/1.1" 200 1934 http-bio-8080-exec-8 9
+0:0:0:0:0:0:0:1 - - [04/Jul/2023:20:57:23 +0800] "GET /web/imgs/Desert1.jpg HTTP/1.1" 200 1631571 http-bio-8080-exec-9 19
+0:0:0:0:0:0:0:1 - - [04/Jul/2023:20:57:28 +0800] "POST /web/login HTTP/1.1" 500 6712 http-bio-8080-exec-10 631
+0:0:0:0:0:0:0:1 - - [04/Jul/2023:21:03:20 +0800] "POST /web/login HTTP/1.1" 500 6712 http-bio-8080-exec-2 11
