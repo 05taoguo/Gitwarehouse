@@ -202,7 +202,7 @@
         <profile>
             <id>env_dep</id>
             <properties>
-                <jdbc.ur1>jdbc:mysql://127.0.0.1:336/ssm_db</jdbc.ur1>
+                <jdbc.ur1>jdbc:mysql://127.0.0.1:3306/ssm_db</jdbc.ur1>
             </properties>
             <activation>
                 <!--                设定是否为默认启动环境
@@ -215,7 +215,7 @@
         <profile>
             <id>env_pro</id>
             <properties>
-                <jdbc.ur1>jdbc:mysql://127.2.0.1:336/ssm_db</jdbc.ur1>
+                <jdbc.ur1>jdbc:mysql://127.2.0.1:3306/ssm_db</jdbc.ur1>
             </properties>
         </profile>
 
@@ -223,7 +223,7 @@
         <profile>
             <id>env_test</id>
             <properties>
-                <jdbc.ur1>jdbc:mysql://127.3.0.1:336/ssm_db</jdbc.ur1>
+                <jdbc.ur1>jdbc:mysql://127.3.0.1:3306/ssm_db</jdbc.ur1>
             </properties>
         </profile>
     </profiles>
@@ -231,11 +231,13 @@
 
 <!--    配置当前工程保存在私服中的具体位置-->
     <distributionManagement>
+<!--        稳定版-->
         <repository>
             <id>cnjzyh-release</id>
             <url>http://localhost:8081/repository/cnjzyh-release/</url>
         </repository>
 
+<!--        快照版-->
         <snapshotRepository>
             <id>cnjzyh-snapshot</id>
             <url>http://localhost:8081/repository/cnjzyh-snapshot/</url>
