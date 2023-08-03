@@ -16,5 +16,10 @@ mybatis-plus:
 #    关闭Mp图标
   global-config:
     banner: false
+    db-config:
+#      雪花算法设置id
+      id-type: assign_id
+#      匹配表名，忽略大小写
+      table-prefix: tbl_
 
 

@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773b5338-1dea-4fbd-948b-dc145053b419" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/cn/jzyh/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/cn/jzyh/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Select_Lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Select_Lambda.java" afterDir="false" />
     </list>
@@ -213,7 +212,7 @@
       <workItem from="1691027534366" duration="1912000" />
       <workItem from="1691029470304" duration="3570000" />
       <workItem from="1691033068280" duration="1509000" />
-      <workItem from="1691047370765" duration="2209000" />
+      <workItem from="1691047370765" duration="3708000" />
     </task>
     <servers />
   </component>

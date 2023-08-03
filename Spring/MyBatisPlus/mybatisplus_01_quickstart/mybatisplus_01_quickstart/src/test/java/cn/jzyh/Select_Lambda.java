@@ -115,4 +115,16 @@ class Select_Lambda {
         System.out.println(users);
     }
 
+
+    //雪花算法测试
+    @Test
+    void testGetAll7() {
+        User user = new User();
+        user.setName("王五");
+        user.setPassword("12312313");
+        user.setAge(71);
+        user.setTel("先生");
+        userDao.insert(user);
+    }
+
 }
