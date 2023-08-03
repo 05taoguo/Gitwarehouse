@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.List;
 
 @SpringBootTest
-class Mybatisplus01QuickstartApplicationTests {
+class Select_Page4 {
 
     @Autowired
     private UserDao userDao;

@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773b5338-1dea-4fbd-948b-dc145053b419" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Mybatisplus01QuickstartApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Mybatisplus01QuickstartApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Mybatisplus01QuickstartApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Select_Page4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Mybatisplus01QuickstartApplicationTests2.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Select_Lambda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/Gitwarehouse/Spring/SpringBoot/springboot_ssm",
+    "last_opened_file_path": "E:/Gitwarehouse/Spring/MyBatisPlus/mybatisplus_01_quickstart",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -101,8 +101,8 @@
       <recent name="cn.jzyh" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Mybatisplus01QuickstartApplicationTests2.testGetAll">
-    <configuration name="Mybatisplus01QuickstartApplicationTests2.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Select_Lambda.testGetAll">
+    <configuration name="Select_Lambda.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisplus_01_quickstart" />
       <extension name="coverage">
         <pattern>
@@ -111,14 +111,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jzyh" />
-      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Mybatisplus01QuickstartApplicationTests2" />
+      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Lambda" />
       <option name="METHOD_NAME" value="testGetAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mybatisplus01QuickstartApplicationTests.GetByPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Select_Page4.GetByPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisplus_01_quickstart" />
       <extension name="coverage">
         <pattern>
@@ -127,14 +127,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jzyh" />
-      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Mybatisplus01QuickstartApplicationTests" />
+      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Page4" />
       <option name="METHOD_NAME" value="GetByPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mybatisplus01QuickstartApplicationTests.delete_all" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Select_Page4.delete_all" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisplus_01_quickstart" />
       <extension name="coverage">
         <pattern>
@@ -143,14 +143,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jzyh" />
-      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Mybatisplus01QuickstartApplicationTests" />
+      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Page4" />
       <option name="METHOD_NAME" value="delete_all" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mybatisplus01QuickstartApplicationTests.selectId_all" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Select_Page4.selectId_all" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisplus_01_quickstart" />
       <extension name="coverage">
         <pattern>
@@ -159,14 +159,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jzyh" />
-      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Mybatisplus01QuickstartApplicationTests" />
+      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Page4" />
       <option name="METHOD_NAME" value="selectId_all" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mybatisplus01QuickstartApplicationTests.update_all" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Select_Page4.update_all" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisplus_01_quickstart" />
       <extension name="coverage">
         <pattern>
@@ -175,7 +175,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jzyh" />
-      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Mybatisplus01QuickstartApplicationTests" />
+      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Page4" />
       <option name="METHOD_NAME" value="update_all" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -191,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Mybatisplus01QuickstartApplicationTests2.testGetAll" />
-        <item itemvalue="JUnit.Mybatisplus01QuickstartApplicationTests.GetByPage" />
-        <item itemvalue="JUnit.Mybatisplus01QuickstartApplicationTests.selectId_all" />
-        <item itemvalue="JUnit.Mybatisplus01QuickstartApplicationTests.update_all" />
-        <item itemvalue="JUnit.Mybatisplus01QuickstartApplicationTests.delete_all" />
+        <item itemvalue="JUnit.Select_Lambda.testGetAll" />
+        <item itemvalue="JUnit.Select_Page4.update_all" />
+        <item itemvalue="JUnit.Select_Page4.selectId_all" />
+        <item itemvalue="JUnit.Select_Page4.delete_all" />
+        <item itemvalue="JUnit.Select_Page4.GetByPage" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +209,7 @@
       <updated>1690944253306</updated>
       <workItem from="1690944254499" duration="3549000" />
       <workItem from="1690963175531" duration="5168000" />
+      <workItem from="1691027534366" duration="1446000" />
     </task>
     <servers />
   </component>
