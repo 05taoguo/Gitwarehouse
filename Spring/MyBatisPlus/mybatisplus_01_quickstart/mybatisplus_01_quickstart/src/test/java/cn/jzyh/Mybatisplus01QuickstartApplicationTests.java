@@ -59,7 +59,6 @@ class Mybatisplus01QuickstartApplicationTests {
         System.out.println("一共多少页" + page.getPages());
         System.out.println("一共多少条数据" + page.getTotal());
         System.out.println("数据" + page.getRecords());
-
     }
 
     @Test

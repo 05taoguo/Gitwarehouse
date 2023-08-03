@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773b5338-1dea-4fbd-948b-dc145053b419" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Maven/maven_01_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Maven/maven_01_parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/cn/jzyh/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/cn/jzyh/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Mybatisplus01QuickstartApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Mybatisplus01QuickstartApplicationTests.java" afterDir="false" />
     </list>
@@ -81,7 +78,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/Gitwarehouse/Spring/Maven/maven_02_ssm",
+    "last_opened_file_path": "E:/Gitwarehouse/Spring/SpringBoot/springboot_ssm",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,7 +96,28 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Mybatisplus01QuickstartApplicationTests.GetByPage">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.jzyh" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Mybatisplus01QuickstartApplicationTests2.testGetAll">
+    <configuration name="Mybatisplus01QuickstartApplicationTests2.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisplus_01_quickstart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.jzyh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.jzyh" />
+      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Mybatisplus01QuickstartApplicationTests2" />
+      <option name="METHOD_NAME" value="testGetAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Mybatisplus01QuickstartApplicationTests.GetByPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisplus_01_quickstart" />
       <extension name="coverage">
@@ -127,22 +145,6 @@
       <option name="PACKAGE_NAME" value="cn.jzyh" />
       <option name="MAIN_CLASS_NAME" value="cn.jzyh.Mybatisplus01QuickstartApplicationTests" />
       <option name="METHOD_NAME" value="delete_all" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mybatisplus01QuickstartApplicationTests.insert_all" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisplus_01_quickstart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.jzyh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.jzyh" />
-      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Mybatisplus01QuickstartApplicationTests" />
-      <option name="METHOD_NAME" value="insert_all" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -189,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Mybatisplus01QuickstartApplicationTests2.testGetAll" />
         <item itemvalue="JUnit.Mybatisplus01QuickstartApplicationTests.GetByPage" />
         <item itemvalue="JUnit.Mybatisplus01QuickstartApplicationTests.selectId_all" />
         <item itemvalue="JUnit.Mybatisplus01QuickstartApplicationTests.update_all" />
         <item itemvalue="JUnit.Mybatisplus01QuickstartApplicationTests.delete_all" />
-        <item itemvalue="JUnit.Mybatisplus01QuickstartApplicationTests.insert_all" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +208,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690944253306</updated>
       <workItem from="1690944254499" duration="3549000" />
-      <workItem from="1690963175531" duration="2871000" />
+      <workItem from="1690963175531" duration="5168000" />
     </task>
     <servers />
   </component>

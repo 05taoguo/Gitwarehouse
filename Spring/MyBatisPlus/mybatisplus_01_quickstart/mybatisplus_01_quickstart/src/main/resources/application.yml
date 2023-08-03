@@ -5,9 +5,16 @@ spring:
     url: jdbc:mysql://127.2.0.1:3306/mybatisplus_db
     username: root
     password: 28465
+#    关闭SpringBoot图标
+  main:
+    banner-mode: off
 
 #开启Mp的日志，输出到控制台
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#    关闭Mp图标
+  global-config:
+    banner: false
+
 

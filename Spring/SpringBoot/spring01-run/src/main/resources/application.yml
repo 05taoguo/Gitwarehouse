@@ -1,10 +1,6 @@
-#spring:
-#  profiles:
-#    active: ${profile.active}
-
 spring:
   profiles:
-    active: dev
+    active: ${profile.active}
 ---
 #开发
 spring:
