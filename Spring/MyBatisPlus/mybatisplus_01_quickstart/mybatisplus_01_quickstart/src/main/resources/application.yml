@@ -21,5 +21,10 @@ mybatis-plus:
       id-type: assign_id
 #      匹配表名，忽略大小写
       table-prefix: tbl_
+#      删除状态留存
+      logic-delete-field: deleted
+      logic-not-delete-value: 0
+      logic-delete-value: 1
+
 
 

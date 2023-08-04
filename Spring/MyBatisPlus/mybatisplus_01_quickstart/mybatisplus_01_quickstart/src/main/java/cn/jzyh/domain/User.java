@@ -1,9 +1,6 @@
 package cn.jzyh.domain;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.*;
 
 /*
@@ -26,7 +23,7 @@ ASSIGN UUID(4): 以UUID生成算法作为id生成策略
 
 @Data
 //表名匹配，会忽略大小写，防止tbl_user
-//@TableName("user")
+//@TableName("tbl_user")
 public class User {
 
     //雪花算法
@@ -43,4 +40,8 @@ public class User {
     //    数据库不存在
     @TableField(exist = false)
     private Integer online;
+
+    //设置删除数据留存状态
+    //@TableLogic(value = "0",delval = "1")
+    private Integer deleted;
 }

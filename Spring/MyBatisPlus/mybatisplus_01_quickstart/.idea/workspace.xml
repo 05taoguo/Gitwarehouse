@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="773b5338-1dea-4fbd-948b-dc145053b419" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/cn/jzyh/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/cn/jzyh/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Select_Lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Select_Lambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Select_Page4.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Select_Page4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.5853018&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;cn.yiiguxing.plugin.translate&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;9b3843849223513463b18306b16156c6&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -98,11 +99,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.jzyh.config" />
       <recent name="cn.jzyh" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Select_Lambda.testGetAll7">
-    <configuration name="Select_Lambda.testGetAll3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Select_Page1.GeiAll">
+    <configuration name="Select_Page1.Delete_All" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisplus_01_quickstart" />
       <extension name="coverage">
         <pattern>
@@ -111,14 +113,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jzyh" />
-      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Lambda" />
-      <option name="METHOD_NAME" value="testGetAll3" />
+      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Page1" />
+      <option name="METHOD_NAME" value="Delete_All" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Select_Lambda.testGetAll4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Select_Page1.GeiAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisplus_01_quickstart" />
       <extension name="coverage">
         <pattern>
@@ -127,14 +129,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jzyh" />
-      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Lambda" />
-      <option name="METHOD_NAME" value="testGetAll4" />
+      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Page1" />
+      <option name="METHOD_NAME" value="GeiAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Select_Lambda.testGetAll5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Select_Page1.Insert_All" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisplus_01_quickstart" />
       <extension name="coverage">
         <pattern>
@@ -143,14 +145,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jzyh" />
-      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Lambda" />
-      <option name="METHOD_NAME" value="testGetAll5" />
+      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Page1" />
+      <option name="METHOD_NAME" value="Insert_All" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Select_Lambda.testGetAll6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Select_Page1.Select_I" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisplus_01_quickstart" />
       <extension name="coverage">
         <pattern>
@@ -159,14 +161,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jzyh" />
-      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Lambda" />
-      <option name="METHOD_NAME" value="testGetAll6" />
+      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Page1" />
+      <option name="METHOD_NAME" value="Select_I" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Select_Lambda.testGetAll7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Select_Page1.Select_al3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisplus_01_quickstart" />
       <extension name="coverage">
         <pattern>
@@ -175,8 +177,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jzyh" />
-      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Lambda" />
-      <option name="METHOD_NAME" value="testGetAll7" />
+      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Page1" />
+      <option name="METHOD_NAME" value="Select_al3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Select_Lambda.testGetAll7" />
-        <item itemvalue="JUnit.Select_Lambda.testGetAll6" />
-        <item itemvalue="JUnit.Select_Lambda.testGetAll5" />
-        <item itemvalue="JUnit.Select_Lambda.testGetAll4" />
-        <item itemvalue="JUnit.Select_Lambda.testGetAll3" />
+        <item itemvalue="JUnit.Select_Page1.GeiAll" />
+        <item itemvalue="JUnit.Select_Page1.Delete_All" />
+        <item itemvalue="JUnit.Select_Page1.Insert_All" />
+        <item itemvalue="JUnit.Select_Page1.Select_I" />
+        <item itemvalue="JUnit.Select_Page1.Select_al3" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +214,11 @@
       <workItem from="1691027534366" duration="1912000" />
       <workItem from="1691029470304" duration="3570000" />
       <workItem from="1691033068280" duration="1509000" />
-      <workItem from="1691047370765" duration="3708000" />
+      <workItem from="1691047370765" duration="6398000" />
+      <workItem from="1691054913899" duration="1919000" />
+      <workItem from="1691064397956" duration="3424000" />
+      <workItem from="1691112749190" duration="89000" />
+      <workItem from="1691137869559" duration="2447000" />
     </task>
     <servers />
   </component>

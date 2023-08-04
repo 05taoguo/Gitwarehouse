@@ -1225,7 +1225,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <System>1</System>
       <CollationName>utf8_general_ci</CollationName>
     </table>
-    <table id="302" parent="228" name="user">
+    <table id="302" parent="228" name="tbl_user">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
