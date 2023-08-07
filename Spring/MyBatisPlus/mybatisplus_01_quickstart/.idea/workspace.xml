@@ -3,10 +3,15 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BookmarksViewState">
+    <option name="proportionPopup" value="0.3504673" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="773b5338-1dea-4fbd-948b-dc145053b419" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/cn/jzyh/config/MpConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/cn/jzyh/config/MpConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/cn/jzyh/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/cn/jzyh/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Select_Lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Select_Lambda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Select_Page4.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Select_Page4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +53,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -68,43 +74,43 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Desktop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.5853018&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;9b3843849223513463b18306b16156c6&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/Gitwarehouse/Spring/MyBatisPlus/mybatisplus_02_codemaker",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5853018",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "9b3843849223513463b18306b16156c6",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.jzyh.config" />
       <recent name="cn.jzyh" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Select_Page1.GeiAll">
-    <configuration name="Select_Page1.Delete_All" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Select_Lambda.testUpdate">
+    <configuration name="Select_Lambda.testGetAll1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisplus_01_quickstart" />
       <extension name="coverage">
         <pattern>
@@ -113,14 +119,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jzyh" />
-      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Page1" />
-      <option name="METHOD_NAME" value="Delete_All" />
+      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Lambda" />
+      <option name="METHOD_NAME" value="testGetAll1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Select_Page1.GeiAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Select_Lambda.testGetAll2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisplus_01_quickstart" />
       <extension name="coverage">
         <pattern>
@@ -129,14 +135,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jzyh" />
-      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Page1" />
-      <option name="METHOD_NAME" value="GeiAll" />
+      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Lambda" />
+      <option name="METHOD_NAME" value="testGetAll2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Select_Page1.Insert_All" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Select_Lambda.testGetAll3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisplus_01_quickstart" />
       <extension name="coverage">
         <pattern>
@@ -145,14 +151,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jzyh" />
-      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Page1" />
-      <option name="METHOD_NAME" value="Insert_All" />
+      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Lambda" />
+      <option name="METHOD_NAME" value="testGetAll3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Select_Page1.Select_I" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Select_Lambda.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisplus_01_quickstart" />
       <extension name="coverage">
         <pattern>
@@ -161,14 +167,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jzyh" />
-      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Page1" />
-      <option name="METHOD_NAME" value="Select_I" />
+      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Lambda" />
+      <option name="METHOD_NAME" value="testUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Select_Page1.Select_al3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Select_Page4.selectId_all" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisplus_01_quickstart" />
       <extension name="coverage">
         <pattern>
@@ -177,8 +183,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jzyh" />
-      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Page1" />
-      <option name="METHOD_NAME" value="Select_al3" />
+      <option name="MAIN_CLASS_NAME" value="cn.jzyh.Select_Page4" />
+      <option name="METHOD_NAME" value="selectId_all" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,13 +197,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Mybatisplus02CodemakerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mybatisplus_02_codemaker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.jzyh.Mybatisplus02CodemakerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Select_Page1.GeiAll" />
-        <item itemvalue="JUnit.Select_Page1.Delete_All" />
-        <item itemvalue="JUnit.Select_Page1.Insert_All" />
-        <item itemvalue="JUnit.Select_Page1.Select_I" />
-        <item itemvalue="JUnit.Select_Page1.Select_al3" />
+        <item itemvalue="JUnit.Select_Lambda.testUpdate" />
+        <item itemvalue="JUnit.Select_Lambda.testGetAll2" />
+        <item itemvalue="JUnit.Select_Lambda.testGetAll1" />
+        <item itemvalue="JUnit.Select_Lambda.testGetAll3" />
+        <item itemvalue="JUnit.Select_Page4.selectId_all" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +231,10 @@
       <workItem from="1691054913899" duration="1919000" />
       <workItem from="1691064397956" duration="3424000" />
       <workItem from="1691112749190" duration="89000" />
-      <workItem from="1691137869559" duration="2447000" />
+      <workItem from="1691137869559" duration="3959000" />
+      <workItem from="1691321391391" duration="499000" />
+      <workItem from="1691321960305" duration="717000" />
+      <workItem from="1691368789779" duration="4108000" />
     </task>
     <servers />
   </component>

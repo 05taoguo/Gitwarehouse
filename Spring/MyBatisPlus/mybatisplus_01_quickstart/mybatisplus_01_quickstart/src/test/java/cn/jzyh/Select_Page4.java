@@ -17,17 +17,6 @@ class Select_Page4 {
     @Autowired
     private UserDao userDao;
 
-    //    新增
-    @Test
-    void insert_all() {
-        User user = new User();
-        user.setName("jzyh");
-        user.setPassword("331231");
-        user.setTel("轻轻");
-        user.setAge(22);
-        userDao.insert(user);
-    }
-
     //    删除单条/多条
     @Test
     void delete_all() {
@@ -36,18 +25,9 @@ class Select_Page4 {
 
         //删除多条
         List<Long> longs = new ArrayList<>();
-        longs.add(1687016535490625537L);
-        longs.add(1687018391944044545L);
+        longs.add(1687085719100641282L);
+        longs.add(1687381591319420929L);
         userDao.deleteBatchIds(longs);
-    }
-
-    //    修改
-    @Test
-    void update_all() {
-        User user = new User();
-        user.setId(1L);
-        user.setName("张三");
-        userDao.updateById(user);
     }
 
     //查询单个/多个
@@ -74,12 +54,6 @@ class Select_Page4 {
         System.out.println("一共多少页" + page.getPages());
         System.out.println("一共多少条数据" + page.getTotal());
         System.out.println("数据" + page.getRecords());
-    }
-
-    @Test
-    void testGetAll() {
-        List<User> userList = userDao.selectList(null);
-        System.out.println(userList);
     }
 
 }

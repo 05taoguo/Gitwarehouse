@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b88a69e-7ec5-4596-ade0-a8c87eaadb6b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../maven_01_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_01_parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MyBatisPlus/mybatisplus_01_quickstart/mybatisplus_01_quickstart/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatisPlus/mybatisplus_01_quickstart/mybatisplus_01_quickstart/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MyBatisPlus/mybatisplus_01_quickstart/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Mybatisplus01QuickstartApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatisPlus/mybatisplus_01_quickstart/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Mybatisplus01QuickstartApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/spring01-run/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/spring01-run/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/spring01-run/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/spring01-run/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisPlus/mybatisplus_01_quickstart/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Select_Lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatisPlus/mybatisplus_01_quickstart/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Select_Lambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisPlus/mybatisplus_01_quickstart/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Select_Page4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatisPlus/mybatisplus_01_quickstart/mybatisplus_01_quickstart/src/test/java/cn/jzyh/Select_Page4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,6 +215,8 @@
       <workItem from="1690979790054" duration="322000" />
       <workItem from="1690981191637" duration="481000" />
       <workItem from="1691023106807" duration="1310000" />
+      <workItem from="1691145484713" duration="872000" />
+      <workItem from="1691321346289" duration="43000" />
     </task>
     <servers />
   </component>

@@ -109,7 +109,7 @@ class Select_Lambda {
     @Test
     void testGetAll6() {
         LambdaQueryWrapper<User> lqw = new LambdaQueryWrapper<>();
-        //like 杨%    likeLeft %杨
+        //like %杨%    likeLeft %杨  likeRight 杨%
         lqw.like(User::getName,"杨");
         List<User> users = userDao.selectList(lqw);
         System.out.println(users);
@@ -125,6 +125,14 @@ class Select_Lambda {
         user.setAge(71);
         user.setTel("先生");
         userDao.insert(user);
+    }
+
+    //乐观锁
+    @Test
+    void testUpdate(){
+        User user = userDao.selectById(1L);
+        user.setName("李四");
+        userDao.updateById(user);
     }
 
 }

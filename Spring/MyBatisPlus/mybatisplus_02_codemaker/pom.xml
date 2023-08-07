@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
@@ -9,23 +9,24 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.jzyh</groupId>
-    <artifactId>mybatisplus_01_quickstart</artifactId>
+    <artifactId>mybatisplus_02_codemaker</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mybatisplus_01_quickstart</name>
-    <description>mybatisplus_01_quickstart</description>
+    <name>mybatisplus_02_codemaker</name>
+    <description>mybatisplus_02_codemaker</description>
     <properties>
         <java.version>8</java.version>
     </properties>
+
     <dependencies>
 
-<!--        mybatis-plus起步依赖-->
+        <!--        mybatis-plus起步依赖-->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.4.1</version>
         </dependency>
 
-<!--        数据库连接池-->
+        <!--        数据库连接池-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
@@ -55,7 +56,7 @@
         </dependency>
 
 <!--        代码生产器-->
-<!--        <dependency>
+        <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-generator</artifactId>
             <version>3.5.0</version>
@@ -65,7 +66,8 @@
             <groupId>org.apache.velocity</groupId>
             <artifactId>velocity-engine-core</artifactId>
             <version>2.3</version>
-        </dependency>-->
+        </dependency>
+
     </dependencies>
 
     <build>

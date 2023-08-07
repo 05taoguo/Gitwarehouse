@@ -44,4 +44,7 @@ public class User {
     //设置删除数据留存状态
     //@TableLogic(value = "0",delval = "1")
     private Integer deleted;
+
+    @Version
+    private Integer version;
 }
