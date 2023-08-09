@@ -8,10 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773b5338-1dea-4fbd-948b-dc145053b419" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../mybatisplus_02_codemaker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatisplus_02_codemaker/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisplus_02_codemaker/src/main/java/cn/jzyh/Generator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisplus_02_codemaker/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatisplus_02_codemaker/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisplus_02_codemaker/src/test/java/cn/jzyh/Mybatisplus02CodemakerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatisplus_02_codemaker/src/test/java/cn/jzyh/Mybatisplus02CodemakerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Takeaway/takeaway_01/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Takeaway/takeaway_01/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +81,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/Gitwarehouse/Spring/Takeaway",
+    "last_opened_file_path": "E:/Gitwarehouse/Spring/MyBatisPlus/mybatisplus_01_quickstart",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -237,6 +234,7 @@
       <workItem from="1691390234853" duration="134000" />
       <workItem from="1691408190813" duration="364000" />
       <workItem from="1691409045935" duration="709000" />
+      <workItem from="1691457338701" duration="618000" />
     </task>
     <servers />
   </component>
