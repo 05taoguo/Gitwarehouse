@@ -65,16 +65,19 @@ public class EmployeeController {
     //新增员工
     @PostMapping
     public R<String> save(HttpServletRequest request,@RequestBody Employee employee){
-
+        //1:密码初始并且加密
         employee.setPassword(DigestUtils.md5DigestAsHex("123456".getBytes()));
 
+        //2:设置更新时间和创建时间
         employee.setCreateTime(LocalDateTime.now());
         employee.setUpdateTime(LocalDateTime.now());
 
+        //3：设置更新人和创建人
         Long empId = (Long)request.getSession().getAttribute("employee");
         employee.setCreateUser(empId);
         employee.setUpdateUser(empId);
 
+        //4：执行保存
         employeeService.save(employee);
 
         return R.success("保存成功");
@@ -82,21 +85,44 @@ public class EmployeeController {
 
     //分页查询
     @GetMapping("/page")
-    public R<Page> page(int page, int pageSize,String name){
+    public R<Page<Employee>> page(int page, int pageSize, String name){
         log. info("page = {}, pageSize = {}, name = {}",page,pageSize,name );
 
-        Page pageInfo = new Page(page, pageSize);
+        //1.创建page对象
+        Page<Employee> pageInfo = new Page<>(page, pageSize);
 
-        LambdaQueryWrapper<Employee> queryWrapper = new LambdaQueryWrapper();
+        //2:构建条件查询
+        LambdaQueryWrapper<Employee> queryWrapper = new LambdaQueryWrapper<>();
 
         queryWrapper.like(StringUtils.isNotEmpty(name),Employee::getName,name);
 
         queryWrapper.orderByDesc(Employee::getUpdateTime);
 
+        //3:查询
         employeeService.page(pageInfo,queryWrapper);
         
         return R.success(pageInfo);
     }
+    
+
+    //修改账号状态
+    @PutMapping
+    public R<String> updates(HttpServletRequest request, @RequestBody Employee employee){
+
+        Long employeeId = (Long) request.getSession().getAttribute("employee");
+
+        //修改用户
+        employee.setUpdateUser(employeeId);
+        //修改时间
+        employee.setUpdateTime(LocalDateTime.now());
+
+        //更新
+        employeeService.updateById(employee);
+
+        return R.success("更新成功");
+
+    }
+
 }
 
 

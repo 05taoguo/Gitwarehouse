@@ -792,5 +792,944 @@
     <user id="239" parent="1" name="root">
       <Host>localhost</Host>
     </user>
+    <table id="240" parent="234" name="address_book">
+      <Comment>地址管理</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_bin</CollationName>
+    </table>
+    <table id="241" parent="234" name="category">
+      <Comment>菜品及套餐分类</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_bin</CollationName>
+    </table>
+    <table id="242" parent="234" name="dish">
+      <Comment>菜品管理</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_bin</CollationName>
+    </table>
+    <table id="243" parent="234" name="dish_flavor">
+      <Comment>菜品口味关系表</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_bin</CollationName>
+    </table>
+    <table id="244" parent="234" name="employee">
+      <Comment>员工信息</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_bin</CollationName>
+    </table>
+    <table id="245" parent="234" name="order_detail">
+      <Comment>订单明细表</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_bin</CollationName>
+    </table>
+    <table id="246" parent="234" name="orders">
+      <Comment>订单表</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_bin</CollationName>
+    </table>
+    <table id="247" parent="234" name="setmeal">
+      <Comment>套餐</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_bin</CollationName>
+    </table>
+    <table id="248" parent="234" name="setmeal_dish">
+      <Comment>套餐菜品关系</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_bin</CollationName>
+    </table>
+    <table id="249" parent="234" name="shopping_cart">
+      <Comment>购物车</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_bin</CollationName>
+    </table>
+    <table id="250" parent="234" name="user">
+      <Comment>用户信息</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_bin</CollationName>
+    </table>
+    <column id="251" parent="240" name="id">
+      <Comment>主键</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="252" parent="240" name="user_id">
+      <Comment>用户id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="253" parent="240" name="consignee">
+      <Comment>收货人</Comment>
+      <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="254" parent="240" name="sex">
+      <Comment>性别 0 女 1 男</Comment>
+      <DasType>tinyint(4)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="255" parent="240" name="phone">
+      <Comment>手机号</Comment>
+      <DasType>varchar(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="256" parent="240" name="province_code">
+      <Comment>省级区划编号</Comment>
+      <DasType>varchar(12)|0s</DasType>
+      <Position>6</Position>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </column>
+    <column id="257" parent="240" name="province_name">
+      <Comment>省级名称</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <Position>7</Position>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </column>
+    <column id="258" parent="240" name="city_code">
+      <Comment>市级区划编号</Comment>
+      <DasType>varchar(12)|0s</DasType>
+      <Position>8</Position>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </column>
+    <column id="259" parent="240" name="city_name">
+      <Comment>市级名称</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <Position>9</Position>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </column>
+    <column id="260" parent="240" name="district_code">
+      <Comment>区级区划编号</Comment>
+      <DasType>varchar(12)|0s</DasType>
+      <Position>10</Position>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </column>
+    <column id="261" parent="240" name="district_name">
+      <Comment>区级名称</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <Position>11</Position>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </column>
+    <column id="262" parent="240" name="detail">
+      <Comment>详细地址</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <Position>12</Position>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </column>
+    <column id="263" parent="240" name="label">
+      <Comment>标签</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>13</Position>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </column>
+    <column id="264" parent="240" name="is_default">
+      <Comment>默认 0 否 1是</Comment>
+      <DasType>tinyint(1)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>14</Position>
+    </column>
+    <column id="265" parent="240" name="create_time">
+      <Comment>创建时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>15</Position>
+    </column>
+    <column id="266" parent="240" name="update_time">
+      <Comment>更新时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>16</Position>
+    </column>
+    <column id="267" parent="240" name="create_user">
+      <Comment>创建人</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>17</Position>
+    </column>
+    <column id="268" parent="240" name="update_user">
+      <Comment>修改人</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>18</Position>
+    </column>
+    <column id="269" parent="240" name="is_deleted">
+      <Comment>是否删除</Comment>
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>19</Position>
+    </column>
+    <index id="270" parent="240" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="271" parent="240" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="272" parent="241" name="id">
+      <Comment>主键</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="273" parent="241" name="type">
+      <Comment>类型   1 菜品分类 2 套餐分类</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="274" parent="241" name="name">
+      <Comment>分类名称</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="275" parent="241" name="sort">
+      <Comment>顺序</Comment>
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="276" parent="241" name="create_time">
+      <Comment>创建时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="277" parent="241" name="update_time">
+      <Comment>更新时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="278" parent="241" name="create_user">
+      <Comment>创建人</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="279" parent="241" name="update_user">
+      <Comment>修改人</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <index id="280" parent="241" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="281" parent="241" name="idx_category_name">
+      <ColNames>name</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="282" parent="241" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="283" parent="241" name="idx_category_name">
+      <UnderlyingIndexName>idx_category_name</UnderlyingIndexName>
+    </key>
+    <column id="284" parent="242" name="id">
+      <Comment>主键</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="285" parent="242" name="name">
+      <Comment>菜品名称</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="286" parent="242" name="category_id">
+      <Comment>菜品分类id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="287" parent="242" name="price">
+      <Comment>菜品价格</Comment>
+      <DasType>decimal(10,2 digit)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="288" parent="242" name="code">
+      <Comment>商品码</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="289" parent="242" name="image">
+      <Comment>图片</Comment>
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="290" parent="242" name="description">
+      <Comment>描述信息</Comment>
+      <DasType>varchar(400)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="291" parent="242" name="status">
+      <Comment>0 停售 1 起售</Comment>
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>1</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="292" parent="242" name="sort">
+      <Comment>顺序</Comment>
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="293" parent="242" name="create_time">
+      <Comment>创建时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+    </column>
+    <column id="294" parent="242" name="update_time">
+      <Comment>更新时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>11</Position>
+    </column>
+    <column id="295" parent="242" name="create_user">
+      <Comment>创建人</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>12</Position>
+    </column>
+    <column id="296" parent="242" name="update_user">
+      <Comment>修改人</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>13</Position>
+    </column>
+    <column id="297" parent="242" name="is_deleted">
+      <Comment>是否删除</Comment>
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>14</Position>
+    </column>
+    <index id="298" parent="242" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="299" parent="242" name="idx_dish_name">
+      <ColNames>name</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="300" parent="242" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="301" parent="242" name="idx_dish_name">
+      <UnderlyingIndexName>idx_dish_name</UnderlyingIndexName>
+    </key>
+    <column id="302" parent="243" name="id">
+      <Comment>主键</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="303" parent="243" name="dish_id">
+      <Comment>菜品</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="304" parent="243" name="name">
+      <Comment>口味名称</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="305" parent="243" name="value">
+      <Comment>口味数据list</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="306" parent="243" name="create_time">
+      <Comment>创建时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="307" parent="243" name="update_time">
+      <Comment>更新时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="308" parent="243" name="create_user">
+      <Comment>创建人</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="309" parent="243" name="update_user">
+      <Comment>修改人</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="310" parent="243" name="is_deleted">
+      <Comment>是否删除</Comment>
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <index id="311" parent="243" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="312" parent="243" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="313" parent="244" name="id">
+      <Comment>主键</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="314" parent="244" name="name">
+      <Comment>姓名</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="315" parent="244" name="username">
+      <Comment>用户名</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="316" parent="244" name="password">
+      <Comment>密码</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="317" parent="244" name="phone">
+      <Comment>手机号</Comment>
+      <DasType>varchar(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="318" parent="244" name="sex">
+      <Comment>性别</Comment>
+      <DasType>varchar(2)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="319" parent="244" name="id_number">
+      <Comment>身份证号</Comment>
+      <DasType>varchar(18)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="320" parent="244" name="status">
+      <Comment>状态 0:禁用，1:正常</Comment>
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>1</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="321" parent="244" name="create_time">
+      <Comment>创建时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="322" parent="244" name="update_time">
+      <Comment>更新时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+    </column>
+    <column id="323" parent="244" name="create_user">
+      <Comment>创建人</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>11</Position>
+    </column>
+    <column id="324" parent="244" name="update_user">
+      <Comment>修改人</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>12</Position>
+    </column>
+    <index id="325" parent="244" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="326" parent="244" name="idx_username">
+      <ColNames>username</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="327" parent="244" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="328" parent="244" name="idx_username">
+      <UnderlyingIndexName>idx_username</UnderlyingIndexName>
+    </key>
+    <column id="329" parent="245" name="id">
+      <Comment>主键</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="330" parent="245" name="name">
+      <Comment>名字</Comment>
+      <DasType>varchar(50)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="331" parent="245" name="image">
+      <Comment>图片</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="332" parent="245" name="order_id">
+      <Comment>订单id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="333" parent="245" name="dish_id">
+      <Comment>菜品id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="334" parent="245" name="setmeal_id">
+      <Comment>套餐id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="335" parent="245" name="dish_flavor">
+      <Comment>口味</Comment>
+      <DasType>varchar(50)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="336" parent="245" name="number">
+      <Comment>数量</Comment>
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>1</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="337" parent="245" name="amount">
+      <Comment>金额</Comment>
+      <DasType>decimal(10,2 digit)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <index id="338" parent="245" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="339" parent="245" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="340" parent="246" name="id">
+      <Comment>主键</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="341" parent="246" name="number">
+      <Comment>订单号</Comment>
+      <DasType>varchar(50)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="342" parent="246" name="status">
+      <Comment>订单状态 1待付款，2待派送，3已派送，4已完成，5已取消</Comment>
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>1</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="343" parent="246" name="user_id">
+      <Comment>下单用户</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="344" parent="246" name="address_book_id">
+      <Comment>地址id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="345" parent="246" name="order_time">
+      <Comment>下单时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="346" parent="246" name="checkout_time">
+      <Comment>结账时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="347" parent="246" name="pay_method">
+      <Comment>支付方式 1微信,2支付宝</Comment>
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>1</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="348" parent="246" name="amount">
+      <Comment>实收金额</Comment>
+      <DasType>decimal(10,2 digit)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="349" parent="246" name="remark">
+      <Comment>备注</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="350" parent="246" name="phone">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="351" parent="246" name="address">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="352" parent="246" name="user_name">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="353" parent="246" name="consignee">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <index id="354" parent="246" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="355" parent="246" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="356" parent="247" name="id">
+      <Comment>主键</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="357" parent="247" name="category_id">
+      <Comment>菜品分类id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="358" parent="247" name="name">
+      <Comment>套餐名称</Comment>
+      <DasType>varchar(64)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="359" parent="247" name="price">
+      <Comment>套餐价格</Comment>
+      <DasType>decimal(10,2 digit)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="360" parent="247" name="status">
+      <Comment>状态 0:停用 1:启用</Comment>
+      <DasType>int(11)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="361" parent="247" name="code">
+      <Comment>编码</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="362" parent="247" name="description">
+      <Comment>描述信息</Comment>
+      <DasType>varchar(512)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="363" parent="247" name="image">
+      <Comment>图片</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="364" parent="247" name="create_time">
+      <Comment>创建时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="365" parent="247" name="update_time">
+      <Comment>更新时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+    </column>
+    <column id="366" parent="247" name="create_user">
+      <Comment>创建人</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>11</Position>
+    </column>
+    <column id="367" parent="247" name="update_user">
+      <Comment>修改人</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>12</Position>
+    </column>
+    <column id="368" parent="247" name="is_deleted">
+      <Comment>是否删除</Comment>
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>13</Position>
+    </column>
+    <index id="369" parent="247" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="370" parent="247" name="idx_setmeal_name">
+      <ColNames>name</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="371" parent="247" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="372" parent="247" name="idx_setmeal_name">
+      <UnderlyingIndexName>idx_setmeal_name</UnderlyingIndexName>
+    </key>
+    <column id="373" parent="248" name="id">
+      <Comment>主键</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="374" parent="248" name="setmeal_id">
+      <Comment>套餐id </Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="375" parent="248" name="dish_id">
+      <Comment>菜品id</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="376" parent="248" name="name">
+      <Comment>菜品名称 （冗余字段）</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="377" parent="248" name="price">
+      <Comment>菜品原价（冗余字段）</Comment>
+      <DasType>decimal(10,2 digit)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="378" parent="248" name="copies">
+      <Comment>份数</Comment>
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="379" parent="248" name="sort">
+      <Comment>排序</Comment>
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="380" parent="248" name="create_time">
+      <Comment>创建时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="381" parent="248" name="update_time">
+      <Comment>更新时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="382" parent="248" name="create_user">
+      <Comment>创建人</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+    </column>
+    <column id="383" parent="248" name="update_user">
+      <Comment>修改人</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>11</Position>
+    </column>
+    <column id="384" parent="248" name="is_deleted">
+      <Comment>是否删除</Comment>
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>12</Position>
+    </column>
+    <index id="385" parent="248" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="386" parent="248" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="387" parent="249" name="id">
+      <Comment>主键</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="388" parent="249" name="name">
+      <Comment>名称</Comment>
+      <DasType>varchar(50)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="389" parent="249" name="image">
+      <Comment>图片</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="390" parent="249" name="user_id">
+      <Comment>主键</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="391" parent="249" name="dish_id">
+      <Comment>菜品id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="392" parent="249" name="setmeal_id">
+      <Comment>套餐id</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="393" parent="249" name="dish_flavor">
+      <Comment>口味</Comment>
+      <DasType>varchar(50)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="394" parent="249" name="number">
+      <Comment>数量</Comment>
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>1</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="395" parent="249" name="amount">
+      <Comment>金额</Comment>
+      <DasType>decimal(10,2 digit)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="396" parent="249" name="create_time">
+      <Comment>创建时间</Comment>
+      <DasType>datetime|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <index id="397" parent="249" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="398" parent="249" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="399" parent="250" name="id">
+      <Comment>主键</Comment>
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="400" parent="250" name="name">
+      <Comment>姓名</Comment>
+      <DasType>varchar(50)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="401" parent="250" name="phone">
+      <Comment>手机号</Comment>
+      <DasType>varchar(100)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="402" parent="250" name="sex">
+      <Comment>性别</Comment>
+      <DasType>varchar(2)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="403" parent="250" name="id_number">
+      <Comment>身份证号</Comment>
+      <DasType>varchar(18)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="404" parent="250" name="avatar">
+      <Comment>头像</Comment>
+      <DasType>varchar(500)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="405" parent="250" name="status">
+      <Comment>状态 0:禁用，1:正常</Comment>
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>7</Position>
+    </column>
+    <index id="406" parent="250" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="407" parent="250" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>
