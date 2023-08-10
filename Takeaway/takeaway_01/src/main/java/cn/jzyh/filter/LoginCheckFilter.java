@@ -45,7 +45,14 @@ public class LoginCheckFilter implements Filter {
         // 2.确定哪些路径需要拦截,跳转登录页面重新登录。
         Object employee = request.getSession().getAttribute("employee");
 
+
+        //3、判断用户是否登录，若登录了，放行。
         if (employee !=null) {
+            log.info("用户已登录，用户id为: {}",request.getSession().getAttribute("employee"));
+
+            long id = Thread.currentThread().getId();
+            log.info("线程id：{}",id);
+
             filterChain.doFilter(request,response);
             return;
         }

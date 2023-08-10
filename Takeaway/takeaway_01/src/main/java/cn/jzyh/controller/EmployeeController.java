@@ -65,17 +65,18 @@ public class EmployeeController {
     //新增员工
     @PostMapping
     public R<String> save(HttpServletRequest request,@RequestBody Employee employee){
+        log.info("新增员工，员工信息:{}",employee.toString());
         //1:密码初始并且加密
         employee.setPassword(DigestUtils.md5DigestAsHex("123456".getBytes()));
 
-        //2:设置更新时间和创建时间
+/*        //2:设置更新时间和创建时间
         employee.setCreateTime(LocalDateTime.now());
         employee.setUpdateTime(LocalDateTime.now());
 
         //3：设置更新人和创建人
         Long empId = (Long)request.getSession().getAttribute("employee");
         employee.setCreateUser(empId);
-        employee.setUpdateUser(empId);
+        employee.setUpdateUser(empId);*/
 
         //4：执行保存
         employeeService.save(employee);
@@ -105,16 +106,21 @@ public class EmployeeController {
     }
     
 
-    //修改账号状态
+    /*
+    * 修改账号状态
+    * */
     @PutMapping
     public R<String> updates(HttpServletRequest request, @RequestBody Employee employee){
 
-        Long employeeId = (Long) request.getSession().getAttribute("employee");
 
+        long id = Thread.currentThread().getId();
+        log.info("线程id：{}",id);
+
+/*        Long employeeId = (Long) request.getSession().getAttribute("employee");
         //修改用户
         employee.setUpdateUser(employeeId);
         //修改时间
-        employee.setUpdateTime(LocalDateTime.now());
+        employee.setUpdateTime(LocalDateTime.now());*/
 
         //更新
         employeeService.updateById(employee);
@@ -123,13 +129,17 @@ public class EmployeeController {
 
     }
 
+
+   /*
+   * 根据id修改员工信息
+   * */
+    @GetMapping("/{id}")
+    public R<Employee> getById(@PathVariable Long id){
+        Employee employee = employeeService.getById(id);
+
+        if (employee != null){
+            return R.success(employee);
+        }
+        return R.error("没有查询到对应的员工信息");
+    }
 }
-
-
-
-
-
-
-
-
-
