@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 /*
-* 分类管理*/
+ * 分类管理*/
 @Slf4j
 @RestController
 @RequestMapping("/category")
@@ -22,10 +22,10 @@ public class CategoryController {
     private CategoryService categoryService;
 
     /*
-    * 新增分类*/
+     * 新增分类*/
     @PostMapping
-    public R<String> save(@RequestBody Category category){
-        log.info("category:{}",category);
+    public R<String> save(@RequestBody Category category) {
+        log.info("category:{}", category);
 
         categoryService.save(category);
 
@@ -33,10 +33,10 @@ public class CategoryController {
     }
 
     /*
-    * 分类管理查询*/
+     * 分类管理查询*/
     @GetMapping("/page")
     public R<Page<Category>> Page(@RequestParam int page, @RequestParam int pageSize) {
-        Page<Category> pageData = new Page<>(page,pageSize);
+        Page<Category> pageData = new Page<>(page, pageSize);
         LambdaQueryWrapper<Category> queryWrapper = new LambdaQueryWrapper<>();
         queryWrapper.orderByAsc(Category::getSort);
 
@@ -47,12 +47,25 @@ public class CategoryController {
     }
 
     @DeleteMapping
-    public R<String> deleteById(@PathVariable Long id) {
-        log.info("删除分类：id:{}",id);
+    public R<String> deleteById(Long ids) {
+        log.info("删除分类：id:{}", ids);
+        System.out.println("接收到 的删除信息" + ids);
 
-        categoryService.removeById(id);
+        categoryService.remove(ids);
 
         return R.success("分类信息删除成功");
+    }
+
+
+    /*
+     * 根据Id修改分类信息*/
+    @PutMapping
+    public R<String> update(@RequestBody Category category) {
+        log.info("Id修改分类信息:{}", category);
+
+        categoryService.updateById(category);
+
+        return R.success("修改分类信息成功");
     }
 
 }
