@@ -1,9 +1,9 @@
 package cn.jzyh.mapper;
 
-import cn.jzyh.entity.Employee;
+import cn.jzyh.entity.Category;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
-public interface EmployeeMapper extends BaseMapper<Employee> {
+public interface CategoryMapper extends BaseMapper<Category> {
 }

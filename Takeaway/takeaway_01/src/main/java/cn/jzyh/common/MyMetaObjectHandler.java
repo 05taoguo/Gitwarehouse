@@ -1,6 +1,7 @@
 package cn.jzyh.common;
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
+import com.fasterxml.jackson.databind.ser.Serializers;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.reflection.MetaObject;
 import org.springframework.stereotype.Component;
@@ -21,9 +22,9 @@ public class MyMetaObjectHandler implements MetaObjectHandler {
         // 更新时间
         metaObject.setValue("updateTime",LocalDateTime.now());
         // 发布人
-        metaObject.setValue("createUser",new Long(1));
+        metaObject.setValue("createUser",BaseContext.getCurrentId());
         // 更新人
-        metaObject.setValue("updateUser",new Long(1));
+        metaObject.setValue("updateUser",BaseContext.getCurrentId());
     }
 
     /*
@@ -37,6 +38,6 @@ public class MyMetaObjectHandler implements MetaObjectHandler {
         //修改时间
         metaObject.setValue("updateTime",LocalDateTime.now());
         //修改人
-        metaObject.setValue("updateUser",new Long(1));
+        metaObject.setValue("updateUser", BaseContext.getCurrentId());
     }
 }

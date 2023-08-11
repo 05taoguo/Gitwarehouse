@@ -1,5 +1,6 @@
 package cn.jzyh.filter;
 
+import cn.jzyh.common.BaseContext;
 import cn.jzyh.common.R;
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
@@ -49,6 +50,10 @@ public class LoginCheckFilter implements Filter {
         //3、判断用户是否登录，若登录了，放行。
         if (employee !=null) {
             log.info("用户已登录，用户id为: {}",request.getSession().getAttribute("employee"));
+
+            Long empId = (Long) request.getSession().getAttribute("employee");
+
+            BaseContext.setCurrentId(empId);
 
             long id = Thread.currentThread().getId();
             log.info("线程id：{}",id);
