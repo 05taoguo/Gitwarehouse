@@ -13,8 +13,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /*
-* 检查用户是否登陆，若登陆了，放行
-* */
+ * 检查用户是否登陆，若登陆了，放行
+ * */
 @Slf4j
 @WebFilter(filterName = "loginCheckFilter",urlPatterns = "/*")
 public class LoginCheckFilter implements Filter {
