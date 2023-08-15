@@ -1,13 +1,25 @@
 package cn.jzyh.controller;
 
+import cn.jzyh.common.R;
+import cn.jzyh.dto.DishDto;
+import cn.jzyh.entity.Category;
+import cn.jzyh.entity.Dish;
+import cn.jzyh.service.CategoryService;
 import cn.jzyh.service.DishFlavorService;
 import cn.jzyh.service.DishService;
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 /*
 * 菜品管理*/
+@Slf4j
 @RestController
 @RequestMapping("/dish")
 public class DishController {
@@ -17,4 +29,72 @@ public class DishController {
 
     @Autowired
     private DishFlavorService dishFlavorService;
+
+    @Autowired
+    private CategoryService categoryService;
+
+    /*
+    * 新增菜品*/
+    @PostMapping
+    public R<String> save(@RequestBody DishDto dishDto){
+        //log.info("{}", dishDto);
+
+        dishService.saveWithFlavor(dishDto);
+
+        return R.success("新增菜品成功");
+    }
+
+
+    /*
+    * 菜品信息的分页*/
+    @GetMapping("/page")
+    public R<Page> page(int page, int pageSize, String name){
+
+        //分页构造器
+        Page<Dish> dishPage = new Page<>(page,pageSize);
+
+        Page<DishDto> dishDtoPage = new Page<>();
+
+
+        //条件构造器
+        LambdaQueryWrapper<Dish> queryWrapper = new LambdaQueryWrapper<>();
+
+        //添加过滤条件
+        queryWrapper.like(name != null,Dish::getName,name);
+
+        //排序
+        queryWrapper.orderByDesc(Dish::getUpdateTime);
+
+        //分页查询
+        dishService.page(dishPage, queryWrapper);
+
+        //对象拷贝
+        BeanUtils.copyProperties(dishPage,dishDtoPage,"records");
+
+        List<Dish> records = dishPage.getRecords();
+
+        List<DishDto> list = records.stream().map((item) -> {
+            DishDto dishDto = new DishDto();
+
+            BeanUtils.copyProperties(item,dishDto);
+
+            //分类id
+            Long categoryId = item.getCategoryId();
+
+            //根据Id查询分类对象
+            Category category = categoryService.getById(categoryId);
+
+            if (category != null){
+                String categoryName = category.getName();
+
+                dishDto.setCategoryName(categoryName);
+            }
+
+            return dishDto;
+        }).collect(Collectors.toList());
+
+        dishDtoPage.setRecords(list);
+
+        return R.success(dishDtoPage);
+    }
 }

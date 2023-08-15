@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f706259d-4494-4c08-9e86-8631feefbece" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/CommonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/entity/DishFlavor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/mapper/DishFlavorMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/DishFlavorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/DishFlavorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/demo/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/filter/LoginCheckFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/dto/DishDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/Takeaway01Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/Takeaway01Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/DishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/Takeaway01Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/Takeaway01Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/DishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/DishController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/DishService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/service/DishService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/DishServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/DishServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +69,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/Gitwarehouse/Takeaway/takeaway_01/src/main/java/cn/jzyh/entity",
+    "last_opened_file_path": "E:/Gitwarehouse/Takeaway/takeaway_01/src/main/java/cn/jzyh/dto",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,6 +89,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Gitwarehouse\Takeaway\takeaway_01\src\main\java\cn\jzyh\dto" />
       <recent name="E:\Gitwarehouse\Takeaway\takeaway_01\src\main\java\cn\jzyh\entity" />
       <recent name="E:\Gitwarehouse\Takeaway\takeaway_01\src\main\resources\backend\page\demo" />
       <recent name="E:\Gitwarehouse\Takeaway\takeaway_01\src\main\java\cn\jzyh\common" />
@@ -144,7 +142,7 @@
       <workItem from="1691927449175" duration="680000" />
       <workItem from="1691997499788" duration="3924000" />
       <workItem from="1692060448397" duration="710000" />
-      <workItem from="1692079286089" duration="3880000" />
+      <workItem from="1692079286089" duration="10074000" />
     </task>
     <servers />
   </component>
@@ -161,21 +159,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/jzyh/controller/CommonController.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/jzyh/controller/CommonController.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
