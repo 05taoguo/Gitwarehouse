@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f706259d-4494-4c08-9e86-8631feefbece" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/dto/DishDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/Takeaway01Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/Takeaway01Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/DishService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/DishServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/Takeaway01Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/Takeaway01Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/DishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/DishController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/DishService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/service/DishService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/DishServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/DishServiceImpl.class" afterDir="false" />
@@ -60,33 +57,33 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/Gitwarehouse/Takeaway/takeaway_01/src/main/java/cn/jzyh/dto",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.5853018",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "6b17657944c667df2ea0eb9c456a41e4",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Gitwarehouse/Takeaway/takeaway_01/src/main/java/cn/jzyh/dto&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5853018&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6b17657944c667df2ea0eb9c456a41e4&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Gitwarehouse\Takeaway\takeaway_01\src\main\java\cn\jzyh\dto" />
@@ -142,7 +139,8 @@
       <workItem from="1691927449175" duration="680000" />
       <workItem from="1691997499788" duration="3924000" />
       <workItem from="1692060448397" duration="710000" />
-      <workItem from="1692079286089" duration="10074000" />
+      <workItem from="1692079286089" duration="12962000" />
+      <workItem from="1692099702134" duration="5561000" />
     </task>
     <servers />
   </component>
