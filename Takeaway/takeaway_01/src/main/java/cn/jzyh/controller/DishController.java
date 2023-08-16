@@ -4,6 +4,7 @@ import cn.jzyh.common.R;
 import cn.jzyh.dto.DishDto;
 import cn.jzyh.entity.Category;
 import cn.jzyh.entity.Dish;
+import cn.jzyh.entity.Setmeal;
 import cn.jzyh.service.CategoryService;
 import cn.jzyh.service.DishFlavorService;
 import cn.jzyh.service.DishService;
@@ -116,5 +117,25 @@ public class DishController {
         dishService.updateWithFlavor(dishDto);
 
         return R.success("新增菜品成功");
+    }
+
+
+    /*
+    * 根据条件查询对应的菜品数据*/
+    @GetMapping("/list")
+    public R<List<Dish>> list(Dish dish){
+
+        //查询条件
+        LambdaQueryWrapper<Dish> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.eq(dish.getCategoryId() != null,Dish::getCategoryId,dish.getCategoryId());
+
+        //查询状态为1，起售状态
+        queryWrapper.eq(Dish::getStatus,1);
+
+        queryWrapper.orderByAsc(Dish::getSort).orderByDesc(Dish::getUpdateTime);
+
+        List<Dish> list = dishService.list(queryWrapper);
+
+        return R.success(list);
     }
 }
