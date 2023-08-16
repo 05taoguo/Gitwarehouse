@@ -1,5 +1,6 @@
 package cn.jzyh.service.impl;
 
+import cn.jzyh.common.CustomException;
 import cn.jzyh.dto.DishDto;
 import cn.jzyh.entity.Dish;
 import cn.jzyh.entity.DishFlavor;
@@ -17,7 +18,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- 菜品
+ * 菜品
  */
 @Service
 public class DishServiceImpl extends ServiceImpl<DishMapper, Dish> implements DishService {
@@ -39,7 +40,7 @@ public class DishServiceImpl extends ServiceImpl<DishMapper, Dish> implements Di
 
         //菜品口味
         List<DishFlavor> flavors = dishDto.getFlavors();
-        flavors = flavors.stream().map((item) ->{
+        flavors = flavors.stream().map((item) -> {
             item.setDishId(dishId);
             return item;
         }).collect(Collectors.toList());
@@ -57,11 +58,11 @@ public class DishServiceImpl extends ServiceImpl<DishMapper, Dish> implements Di
 
         DishDto dishDto = new DishDto();
 
-        BeanUtils.copyProperties(dish,dishDto);
+        BeanUtils.copyProperties(dish, dishDto);
 
         //查询菜品对应的口味信息，从dish_flavors
         LambdaQueryWrapper<DishFlavor> queryWrapper = new LambdaQueryWrapper<>();
-        queryWrapper.eq(DishFlavor::getId,dish.getId());
+        queryWrapper.eq(DishFlavor::getId, dish.getId());
 
         List<DishFlavor> flavors = dishFlavorService.list(queryWrapper);
 
@@ -77,22 +78,42 @@ public class DishServiceImpl extends ServiceImpl<DishMapper, Dish> implements Di
     public void updateWithFlavor(DishDto dishDto) {
         //更新dish表基本信息
         this.updateById(dishDto);
-        
+
         //清理当前菜品对应的口味数据-dish_flavor表delete
         LambdaQueryWrapper<DishFlavor> queryWrapper = new LambdaQueryWrapper();
-        queryWrapper.eq(DishFlavor::getDishId,dishDto.getId());
-        
+        queryWrapper.eq(DishFlavor::getDishId, dishDto.getId());
+
         dishFlavorService.remove(queryWrapper);
-        
+
         //添加当前菜品对应的口味数据-dish_flavor表insert
         List<DishFlavor> flavors = dishDto.getFlavors();
 
-        flavors = flavors.stream().map((item) ->{
+        flavors = flavors.stream().map((item) -> {
             item.setDishId(dishDto.getId());
             return item;
         }).collect(Collectors.toList());
 
         dishFlavorService.saveBatch(flavors);
 
+    }
+
+
+    /*
+     * 删除菜品*/
+    @Override
+    public void removeById(List<Long> ids) {
+        //查询套餐状态是否可以删除
+        LambdaQueryWrapper<Dish> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.in(Dish::getId, ids);
+        queryWrapper.eq(Dish::getStatus, 1);
+
+        int count = this.count(queryWrapper);
+
+        if (count > 0) {
+            throw new CustomException("菜品启售中，禁止删除");
+        }
+
+        // 删除菜品
+        super.removeByIds(ids);
     }
 }

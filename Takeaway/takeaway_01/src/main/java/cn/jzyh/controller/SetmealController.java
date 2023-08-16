@@ -8,6 +8,9 @@ import cn.jzyh.service.CategoryService;
 import cn.jzyh.service.SetmealDishService;
 import cn.jzyh.service.SetmealService;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
+import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
@@ -103,5 +106,47 @@ public class SetmealController {
         setmealService.removeWitDish(ids);
 
         return R.success("套餐删除成功");
+    }
+    
+
+    /*
+    * 修改套餐信息*/
+    @GetMapping("/{id}")
+    public R<SetmealDto> getId(@PathVariable Long id){
+
+        SetmealDto setmealDto = setmealService.getByIdWithFlavor(id);
+
+        return R.success(setmealDto);
+    }
+
+
+    /*
+    * 更新套餐-删除-添加*/
+    @PutMapping
+    public R<String> update(@RequestBody SetmealDto setmealDto){
+
+        setmealService.updateWithFlavor(setmealDto);
+
+        return R.success("更新套餐成功");
+    }
+
+
+    /*
+    * 更改套餐售卖状态*/
+    @PostMapping("/status/{status}")
+    public R<String> updateByIds(@PathVariable int status,@RequestParam List<Long> ids) {
+
+        LambdaUpdateWrapper<Setmeal> updateWrapper = new LambdaUpdateWrapper<>();
+
+        //设置要修改字段和值
+        updateWrapper.set(Setmeal::getStatus,status);
+
+        //设置要修改的条件
+        updateWrapper.in(Setmeal::getId,ids);
+
+        //执行更新操作
+        setmealService.update(updateWrapper);
+
+        return R.success("状态修改成功");
     }
 }

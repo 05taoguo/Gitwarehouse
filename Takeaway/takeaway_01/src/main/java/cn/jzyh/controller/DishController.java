@@ -1,5 +1,6 @@
 package cn.jzyh.controller;
 
+import cn.jzyh.common.CustomException;
 import cn.jzyh.common.R;
 import cn.jzyh.dto.DishDto;
 import cn.jzyh.entity.Category;
@@ -55,7 +56,6 @@ public class DishController {
         Page<Dish> dishPage = new Page<>(page,pageSize);
 
         Page<DishDto> dishDtoPage = new Page<>();
-
 
         //条件构造器
         LambdaQueryWrapper<Dish> queryWrapper = new LambdaQueryWrapper<>();
@@ -116,7 +116,7 @@ public class DishController {
 
         dishService.updateWithFlavor(dishDto);
 
-        return R.success("新增菜品成功");
+        return R.success("更新菜品成功");
     }
 
 
@@ -137,5 +137,14 @@ public class DishController {
         List<Dish> list = dishService.list(queryWrapper);
 
         return R.success(list);
+    }
+
+
+    /*
+    * 根据Id删除菜品*/
+    @DeleteMapping
+    public R<String> delete(@RequestParam List<Long> ids){
+        dishService.removeById(ids);
+        return R.success("删除菜品成功");
     }
 }

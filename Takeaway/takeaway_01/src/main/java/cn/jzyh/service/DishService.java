@@ -4,8 +4,10 @@ import cn.jzyh.dto.DishDto;
 import cn.jzyh.entity.Dish;
 import com.baomidou.mybatisplus.extension.service.IService;
 
+import java.util.List;
+
 /**
- 菜品
+ * 菜品
  */
 public interface DishService extends IService<Dish> {
 
@@ -18,4 +20,6 @@ public interface DishService extends IService<Dish> {
     //更新菜品信息，同时更新口味信息
     void updateWithFlavor(DishDto dishDto);
 
-    }
+    //根据Id删除菜品
+    void removeById(List<Long> ids);
+}

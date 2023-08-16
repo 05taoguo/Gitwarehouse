@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f706259d-4494-4c08-9e86-8631feefbece" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/SetmealController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/dto/SetmealDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/entity/SetmealDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/mapper/SetmealDishMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/SetmealDishService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/SetmealDishServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/SetmealController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/DishService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/SetmealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/SetmealService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/DishServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/SetmealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/SetmealServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/DishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/DishController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/SetmealController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/SetmealController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/DishService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/service/DishService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/SetmealService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/service/SetmealService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/DishServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/DishServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/SetmealServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/SetmealServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +80,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.5853018&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;6b17657944c667df2ea0eb9c456a41e4&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -114,6 +114,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\ASUS\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f706259d-4494-4c08-9e86-8631feefbece" name="Changes" comment="" />
@@ -149,7 +152,10 @@
       <workItem from="1692099702134" duration="5870000" />
       <workItem from="1692105660570" duration="22000" />
       <workItem from="1692146316476" duration="8698000" />
-      <workItem from="1692166283001" duration="1875000" />
+      <workItem from="1692166283001" duration="4258000" />
+      <workItem from="1692173209835" duration="6785000" />
+      <workItem from="1692180142318" duration="211000" />
+      <workItem from="1692185818704" duration="5749000" />
     </task>
     <servers />
   </component>
