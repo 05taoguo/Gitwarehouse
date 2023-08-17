@@ -5,52 +5,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f706259d-4494-4c08-9e86-8631feefbece" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/AddressBookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/entity/AddressBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/mapper/AddressBookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/AddressBookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/AddressBookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/util/BaseContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/util/SMSUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/util/ValidateCodeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/common/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/cartData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/filter/LoginCheckFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/DishFlavorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/DishFlavorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/api/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/api/category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/js/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/js/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/category/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/category/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/combo/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/demo/upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/member/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/member/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/api/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/api/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/api/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/api/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/api/category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/js/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/js/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/category/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/category/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/combo/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/combo/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/combo/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/combo/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/demo/upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/member/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/member/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/filter/LoginCheckFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/filter/LoginCheckFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/DishFlavorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/DishFlavorServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/front/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/api/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/front/api/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/api/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/page/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/ShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/entity/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/mapper/ShoppingCartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/ShoppingCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/SetmealController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/dto/DishDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/dto/DishDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/Takeaway01Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/common/BaseContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/common/CustomException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/common/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/common/JacksonObjectMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/common/MyMetaObjectHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/common/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/config/MybatisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/AddressBookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/CommonController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/DishController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/EmployeeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/SetmealController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/dto/DishDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/dto/SetmealDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/entity/AddressBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/entity/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/entity/Dish.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/entity/DishFlavor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/entity/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/entity/Setmeal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/entity/SetmealDish.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/filter/LoginCheckFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/mapper/AddressBookMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/mapper/CategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/mapper/DishFlavorMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/mapper/DishMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/mapper/EmployeeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/mapper/SetmealDishMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/mapper/SetmealMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/AddressBookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/DishFlavorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/DishService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/EmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/SetmealDishService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/SetmealService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/AddressBookServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/DishFlavorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/DishServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/EmployeeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/SetmealDishServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/SetmealServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/util/BaseContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/util/SMSUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/util/ValidateCodeUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/takeaway_01-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/takeaway_01-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/jzyh/Takeaway01ApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,18 +129,20 @@
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/Gitwarehouse/Takeaway/takeaway_01/src/main/java/cn/jzyh/utils",
+    "last_opened_file_path": "E:/Gitwarehouse/Takeaway/takeaway_01/src/main/java/cn/jzyh/entity",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.5853018",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
     "spring.configuration.checksum": "6b17657944c667df2ea0eb9c456a41e4",
     "vue.rearranger.settings.migration": "true"
   },
@@ -126,11 +154,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Gitwarehouse\Takeaway\takeaway_01\src\main\java\cn\jzyh\entity" />
+      <recent name="E:\Gitwarehouse\Takeaway\takeaway_01\src\main\resources\common\download" />
       <recent name="E:\Gitwarehouse\Takeaway\takeaway_01\src\main\java\cn\jzyh\utils" />
       <recent name="E:\Gitwarehouse\Takeaway\takeaway_01\src\main\java\cn\jzyh\controller" />
       <recent name="E:\Gitwarehouse\Takeaway\takeaway_01\src\main\resources" />
-      <recent name="E:\Gitwarehouse\Takeaway\takeaway_01\src\main\java\cn\jzyh\entity" />
-      <recent name="E:\Gitwarehouse\Takeaway\takeaway_01\src\main\java\cn\jzyh\dto" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.jzyh.mapper" />
@@ -194,7 +222,11 @@
       <workItem from="1692237914845" duration="6313000" />
       <workItem from="1692244265922" duration="515000" />
       <workItem from="1692251914525" duration="727000" />
-      <workItem from="1692252667780" duration="4710000" />
+      <workItem from="1692252667780" duration="5028000" />
+      <workItem from="1692259807075" duration="254000" />
+      <workItem from="1692261203817" duration="616000" />
+      <workItem from="1692264349608" duration="2652000" />
+      <workItem from="1692269784651" duration="7847000" />
     </task>
     <servers />
   </component>
@@ -211,5 +243,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
