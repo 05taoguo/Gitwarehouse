@@ -32,7 +32,10 @@ public class LoginCheckFilter implements Filter {
                 "/employee/login",
                 "/employee/logout",
                 "/backend/**",
-                "/front/**"
+                "/front/**",
+                "/common/**",
+                "/user/sendMsg",
+                "/user/login"
         };
 
         for(String url : urls){
@@ -44,19 +47,24 @@ public class LoginCheckFilter implements Filter {
         }
 
         // 2.确定哪些路径需要拦截,跳转登录页面重新登录。
-        Object employee = request.getSession().getAttribute("employee");
+        Long employeeid = (Long) request.getSession().getAttribute("employee");
 
-
-        //3、判断用户是否登录，若登录了，放行。
-        if (employee !=null) {
+        if (employeeid !=null) {
             log.info("用户已登录，用户id为: {}",request.getSession().getAttribute("employee"));
 
-            Long empId = (Long) request.getSession().getAttribute("employee");
+            BaseContext.setCurrentId(employeeid);
 
-            BaseContext.setCurrentId(empId);
+            filterChain.doFilter(request,response);
+            return;
+        }
 
-            long id = Thread.currentThread().getId();
-            log.info("线程id：{}",id);
+        // 2.1.手机端
+        Long userid = (Long) request.getSession().getAttribute("user");
+
+        if (userid !=null) {
+            log.info("用户已登录，用户id为: {}",request.getSession().getAttribute("user"));
+
+            BaseContext.setCurrentId(userid);
 
             filterChain.doFilter(request,response);
             return;

@@ -16,7 +16,7 @@
     // }
     // get请求映射params参数
     if (config.method === 'get' && config.params) {
-      let url = config.url + '?';
+      let url = config.url+ '?'; //http://localhost:8080/category/page
       for (const propName of Object.keys(config.params)) {
         const value = config.params[propName];
         var part = encodeURIComponent(propName) + "=";
