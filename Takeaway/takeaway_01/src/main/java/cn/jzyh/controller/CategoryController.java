@@ -51,13 +51,9 @@ public class CategoryController {
     /*
     * 根据Id删除分类信息*/
     @DeleteMapping
-    public R<String> deleteById(Long ids) {
-        log.info("删除分类：id:{}", ids);
-        System.out.println("接收到 的删除信息" + ids);
-
-        categoryService.remove(ids);
-
-        return R.success("分类信息删除成功");
+    public R<String> delete(@RequestParam("id") Long id){
+        categoryService.removeById(id);
+        return R.success("删除成功");
     }
 
 
