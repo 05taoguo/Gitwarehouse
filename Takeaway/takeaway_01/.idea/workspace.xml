@@ -4,8 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="f706259d-4494-4c08-9e86-8631feefbece" name="Changes" comment="订单表，详情页&#10;&#10;订单表，详情页">
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/Java1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/Java1.java" afterDir="false" />
+=======
+    <list default="true" id="f706259d-4494-4c08-9e86-8631feefbece" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/OrderDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/OrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/entity/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/entity/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/mapper/OrderDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/mapper/OrdersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/OrderDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/OrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/OrdersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/AddressBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/AddressBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/SetmealController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/ShoppingCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/ShoppingCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/AddressBookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/AddressBookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/DishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/DishController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/SetmealController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/SetmealController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/ShoppingCartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/ShoppingCartController.class" afterDir="false" />
+>>>>>>> b39c4435cfd5ebdc3f783aa0da1429536c284f24
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +48,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+<<<<<<< HEAD
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;
@@ -37,6 +62,8 @@
       </UrlAndAccount>
     </option>
   </component>
+=======
+>>>>>>> b39c4435cfd5ebdc3f783aa0da1429536c284f24
   <component name="JsBowerSettings">
     <bower-package value="" />
     <bower.json value="" />
@@ -88,7 +115,11 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2321839&quot;,
+<<<<<<< HEAD
     &quot;settings.editor.selected.configurable&quot;: &quot;com.gitee.ui.GiteeSettingsConfigurable&quot;,
+=======
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+>>>>>>> b39c4435cfd5ebdc3f783aa0da1429536c284f24
     &quot;spring.configuration.checksum&quot;: &quot;6b17657944c667df2ea0eb9c456a41e4&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -189,8 +220,11 @@
       <workItem from="1692531197883" duration="1267000" />
       <workItem from="1692532492878" duration="3001000" />
       <workItem from="1692585388714" duration="3140000" />
+<<<<<<< HEAD
       <workItem from="1692668067266" duration="2515000" />
       <workItem from="1692670675480" duration="315000" />
+=======
+>>>>>>> b39c4435cfd5ebdc3f783aa0da1429536c284f24
     </task>
     <task id="LOCAL-00001" summary="订单表，详情页&#10;&#10;订单表，详情页">
       <option name="closed" value="true" />
@@ -257,9 +291,32 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="VcsManagerConfiguration">
     <MESSAGE value="订单表，详情页&#10;&#10;订单表，详情页" />
     <option name="LAST_COMMIT_MESSAGE" value="订单表，详情页&#10;&#10;订单表，详情页" />
+=======
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java</url>
+          <line>220</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java</url>
+          <line>221</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java</url>
+          <line>223</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+>>>>>>> b39c4435cfd5ebdc3f783aa0da1429536c284f24
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
