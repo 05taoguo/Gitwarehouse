@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f706259d-4494-4c08-9e86-8631feefbece" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/OrderDetailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/OrdersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/entity/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/entity/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/mapper/OrderDetailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/mapper/OrdersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/OrderDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/OrdersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/service/impl/OrdersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/AddressBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/AddressBookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/SetmealController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/ShoppingCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/controller/ShoppingCartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/AddressBookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/AddressBookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/DishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/DishController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/SetmealController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/SetmealController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/ShoppingCartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jzyh/controller/ShoppingCartController.class" afterDir="false" />
+    <list default="true" id="f706259d-4494-4c08-9e86-8631feefbece" name="Changes" comment="订单表，详情页&#10;&#10;订单表，详情页">
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jzyh/Java1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jzyh/Java1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +23,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="95d52ef2-8da1-4b7a-83cd-2dd9917ac468" />
+        <option name="url" value="https://github.com/05taoguo/Gitwarehouse.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="JsBowerSettings">
     <bower-package value="" />
@@ -94,7 +88,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2321839&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.gitee.ui.GiteeSettingsConfigurable&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;6b17657944c667df2ea0eb9c456a41e4&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -195,7 +189,58 @@
       <workItem from="1692531197883" duration="1267000" />
       <workItem from="1692532492878" duration="3001000" />
       <workItem from="1692585388714" duration="3140000" />
+      <workItem from="1692668067266" duration="2515000" />
+      <workItem from="1692670675480" duration="315000" />
     </task>
+    <task id="LOCAL-00001" summary="订单表，详情页&#10;&#10;订单表，详情页">
+      <option name="closed" value="true" />
+      <created>1692669206492</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692669206492</updated>
+    </task>
+    <task id="LOCAL-00002" summary="订单表，详情页&#10;&#10;订单表，详情页">
+      <option name="closed" value="true" />
+      <created>1692669401322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692669401322</updated>
+    </task>
+    <task id="LOCAL-00003" summary="订单表，详情页&#10;&#10;订单表，详情页">
+      <option name="closed" value="true" />
+      <created>1692669498804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692669498804</updated>
+    </task>
+    <task id="LOCAL-00004" summary="订单表，详情页&#10;&#10;订单表，详情页">
+      <option name="closed" value="true" />
+      <created>1692669731649</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692669731649</updated>
+    </task>
+    <task id="LOCAL-00005" summary="订单表，详情页&#10;&#10;订单表，详情页">
+      <option name="closed" value="true" />
+      <created>1692670161399</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692670161399</updated>
+    </task>
+    <task id="LOCAL-00006" summary="订单表，详情页&#10;&#10;订单表，详情页">
+      <option name="closed" value="true" />
+      <created>1692670321581</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692670321581</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,26 +257,9 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java</url>
-          <line>220</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java</url>
-          <line>221</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/jzyh/controller/DishController.java</url>
-          <line>223</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="订单表，详情页&#10;&#10;订单表，详情页" />
+    <option name="LAST_COMMIT_MESSAGE" value="订单表，详情页&#10;&#10;订单表，详情页" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

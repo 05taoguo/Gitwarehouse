@@ -1,0 +1,18 @@
+Index: src/main/java/cn/jzyh/Java1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package cn.jzyh;\r\n\r\npublic class Java1 {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"niaho\");\r\n        System.out.println(\"123\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/jzyh/Java1.java b/src/main/java/cn/jzyh/Java1.java
+--- a/src/main/java/cn/jzyh/Java1.java	(revision 5c49bbc64636f2a32a748aca58ab0dbc80ba7c01)
++++ b/src/main/java/cn/jzyh/Java1.java	(date 1692670779549)
+@@ -3,6 +3,6 @@
+ public class Java1 {
+     public static void main(String[] args) {
+         System.out.println("niaho");
+-        System.out.println("123");
++        System.out.println("1234");
+     }
+ }
